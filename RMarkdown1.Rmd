@@ -1,0 +1,112 @@
+---
+title: "RMarkdown1"
+author: "JDW"
+date: "2024-08-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+### Markdown sections
+
+This lab will use the data provided: salaries.csv to make a R Markdown file.
+
+### Link
+Let me add a link
+[BSU](http://www.bsu.edu)
+
+### List
+1. Topic A
+2. Topic B<br>
+  +Subtopic B1<br>
+  +Subtopic B2
+3. Topic C
+
+# Headings
+## Heading 2
+### Heading 3
+
+![Adding an image](C:\Users\jowilli1\Pictures\RLang.jfif)
+
+*italics* and **bold**<br>
+inline equation: $A = \pi*r^{2}$
+
+
+
+## Code chunks
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+```{r Salary data, results='hide', message=FALSE}
+#Import data from a comma delimited file
+Salaries <- read_csv('salaries.csv')
+```
+Hide the code
+```{r, echo=FALSE}
+1 + 1
+```
+See the code and print results.
+```{r, echo=TRUE}
+1 + 1
+```
+Hide the print output
+```{r, results=FALSE}
+summary(cars)
+```
+
+* Hide messages:
+```{r, message=FALSE}
+message("You will not see the message.")
+```
+
+* Hide messages:
+```{r, message=TRUE}
+library(tidyverse)
+```
+
+* Hide warning messages:
+```{r, warning=FALSE}
+#This will generate a warning but it will be suppressed
+1:2 + 1:3
+```
+
+## Including Plots
+
+Hide code, but show the plot<br>
+```{r pressure0, echo=FALSE}
+plot(pressure)
+```
+
+Show the code but hide the plot
+```{r pressure1, echo=TRUE, fig.show="hide"}
+plot(pressure)
+```
+
+### Summary
+<!-- This text will be hidden -->
+<!-- We can hide multiple lines
+of text all day long. -->
+#### Hide information in code chunk
+* Hiding code:                        echo = FALSE
+* Hide both code and its output:      include = FALSE
+* Hide output:                        results = FALSE
+* Hide image:                         fig.show='hide'
+You can also embed plots, for example:
+
+```{r Salaries, echo=FALSE}
+hist_data <- hist(Salaries$salary, plot = FALSE)
+plot(hist_data,
+     main = "Histogram of Salary",
+     xlab = "Salary",
+     ylab = "Frequency",
+     col = "lightblue",
+     border = "black")
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
