@@ -1,0 +1,64 @@
+---
+title: "The basic R Markdown"
+author: "JDW"
+date: "2024-08-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data description:
+
+**Description of the data and variables.**
+
+The data used in this lab is salaries.csv. It contains academic ranks for men and women and their salaries. You will find more information about the data at: [Salary Data](https://rpubs.com/LeeLee00/896557)
+
+- rank: Academic title
+- discipline: A or B
+- yrs.since.phd: Number of years
+- yrs.service: Number of years
+- sex: Male, or Female
+- salary: Annual salary
+
+# Data wrangling:
+
+This is how the data has been changed to create a new grouping.
+
+- Read: Read the csv file
+- Select: Select 4 columns from the data frame
+- Filter: Remove any rows where the salary is NA
+- Group_by: Group by 3 columns
+- Count: Count the number of rows of grouped columns
+```{r library, results='hide',message=FALSE, echo=TRUE, warning=FALSE}
+#Data Wrangling in R
+#John Williams
+
+#Load library
+library(tidyverse)
+#Set working directory
+setwd("~/GitHub/DSCI605")
+```
+
+
+```{r salaries, results='hide', echo=TRUE, message=FALSE, warning=FALSE}
+#Load the dataset
+salaries <- read_csv("salaries.csv")
+
+#Create new groups from the data frame
+new_groups <- salaries %>% 
+  select(rank, discipline, sex, salary) %>% #Select 4 columns from the data frame
+  filter(!is.na(salary)) %>%   #Remove any rows where the salary is NA
+  group_by(rank, discipline, sex) %>%  #group by 3 columns
+  count(name = "tally")   #Count the number of rows of grouped columns
+
+wide <- new_groups %>% #convert the data frame to the wide format
+  spread(sex, tally, fill = NA, convert = FALSE, drop = TRUE, sep = NULL)   #Convert the data frame to the wider format using
+                                #names from "sex" for new columns and values from "tally"
+
+long <- wide %>% 
+  gather("sex", "n", Male, Female,  na.rm = TRUE, convert = FALSE, factor_key = FALSE) %>%  #Reformat to long format
+  arrange(rank, sex)   #Rearrange the data frame to sort by rank and then sex
+```
+
