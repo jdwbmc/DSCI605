@@ -1,0 +1,52 @@
+---
+title: "CrimeRate"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1 Set working directory and libraries
+
+```{r directory, include=FALSE}
+setwd("~/GitHub/DSCI605/Mod7")
+library(tidyverse)
+library(readxl)
+library(knitr)
+```
+
+## 2 Read the data
+
+```{r rdata, echo=FALSE}
+df <- read_xlsx(path = "Sampledata2.xlsx")
+```
+
+## 3 Create tables
+
+Create the first table:
+```{r tab1,include=TRUE, echo=FALSE, results='asis'}
+top_cr <- head(df,10)
+
+knitr::kable(top_cr,caption= "A Table to show the first 10 rows of 'Sampledata2'",digits=2)
+
+```
+Once again in Table \ref{tab:tab1}, we see ...
+
+Print 1:
+```{r newtab, echo=FALSE}
+# Create a summary table
+crime_summary <- df %>%
+  group_by(Year) %>%
+  summarize(
+    MeanCrimeRate = mean(CrimeRate, na.rm = TRUE),
+    MaxCrimeRate = max(CrimeRate, na.rm = TRUE),
+    MinCrimeRate = min(CrimeRate, na.rm = TRUE)
+  )
+
+# Display the summary table
+knitr::kable(crime_summary,caption= "A Table to show the crime summary",digits=2)
+```
+

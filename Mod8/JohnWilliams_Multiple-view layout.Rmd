@@ -1,0 +1,119 @@
+---
+title: "JohnWilliams Multi-view Layout"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- MultiPlot Demov-->
+
+<!-- Show multiple plots. -->
+
+```{r packages, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+#Get the required packages and set the working directory
+if (!require(tidyverse)) {install.packages('tidyverse')}; require(tidyverse)
+if (!require(readxl)) {install.packages('readxl')}; require(readxl)
+if (!require(colorspace))  {install.packages(colorspace)}; require(colorspace)
+if (!require(gridExtra))  {install.packages("gridExtra")}; require(gridExtra)
+library(bookdown)
+setwd("~/GitHub/DSCI605/Mod8")
+```
+
+<!-- Load data -->
+
+```{r load data, echo=TRUE, results='hide', message=FALSE}
+#Read the Excel file for the graphs
+df <- read_xlsx("Sampledata2.xlsx")
+```
+
+<!-- Create Color Options -->
+
+<!-- Colors are needed for Years. -->
+
+```{r establishColors, echo=TRUE}
+#Set up the colors for the histogram graph
+n <- length(unique(df$Year))
+col1=colorspace::diverge_hcl(n)
+```
+
+<!-- Including a Plot -->
+
+## A grouped histogram plot
+
+```{r plot1, echo=TRUE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A histogram of Crime Rate over USA"}
+#Create the desired histogram and save in p1
+p1 <- df %>% filter(Year %in% c(2013:2018)) %>% #Limit to 6 years
+  ggplot(aes(x=CrimeRate, color=as.factor(Year), fill=as.factor(Year))) + #continuous value
+  geom_histogram(position="dodge", alpha=0.5, bins=10) +
+  scale_color_manual(values=col1) + #A vector of colors assigned to each level
+  scale_fill_manual(values=col1) + #The fill color for each level
+  labs(title="Crime Rate Histogram", x="Crime Rate per 100, 1000 people", y="Count") + #Graph labels
+  labs(fill = 'Year') +  #Sets the title for the legend
+  guides(color = "none") +  #Hides the legend for color mapping
+  theme_classic()  #Applies a clean and simple appearance to plot
+
+p1 #Display the plot
+```
+
+<!-- Calc Crime Summary -->
+
+```{r cs1, echo=TRUE}
+#Prepare summary for the scatter plot
+crime_summary <- df %>%
+  group_by(Year) %>%   # Group by Year
+  summarize(
+    mean_crime = mean(CrimeRate, na.rm = TRUE),  # Mean of CrimeRate
+    max_crime = max(CrimeRate, na.rm = TRUE),    # Max of CrimeRate
+    min_crime = min(CrimeRate, na.rm = TRUE)     # Min of CrimeRate
+  )
+```
+
+<!-- Line plot -->
+
+## A scatter plot
+
+```{r lp1, echo=TRUE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A scatter plot between Crime Rate with Year"}
+#Create the desired scatter plot and save in p2
+p2 <- ggplot(crime_summary, aes(x = Year, y = mean_crime)) +
+  geom_point(size = 1, color = "black") +  # Points - small and black
+  geom_line(color = "blue", linewidth = 0.5) +   # Lines - thin and blue
+  labs(title = "Crime Rate with Year", #Set up plot title and x/y labels
+       x = "Year",
+       y = "Mean Crime Rate per 100, 1000 people over USA") +
+  theme_minimal()  #classic plus grid lines
+
+p2  #Display the plot
+```
+
+<!-- Now Box Plot -->
+
+## A grouped box plot
+```{r bp2, echo=TRUE, warning=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A box plot of Crime Rate"}
+#Create the desired box plot and save in p3
+p3 <- ggplot(df, aes(x=as.factor(Year), y=CrimeRate, fill=as.factor(Year))) + #Year as factor and fill
+    geom_boxplot(outlier.colour="red", outlier.shape=8,
+                 outlier.size=2) +  #Make the outliers red asterisks
+    labs(title="A grouped box plot", x="Year", y="Crime Rate") +  #Set the labels
+    theme_classic() +  #Applies a clean and simple appearance to plot
+    theme(legend.position = "none") + #Make sure no legend appears
+    scale_x_discrete(breaks=unique(df$Year))  # Ensure all years are shown
+
+p3  #Display the plot
+```
+
+<!-- Grid -->
+
+## All three graphs in one plot
+```{r g1, echo=TRUE, warning=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="Multiple Plots in one page"}
+
+# Arrange the plots
+grid.arrange(
+  grobs = list(p1, p2, p3), #Convert plots to graphic objects
+  layout_matrix = rbind(c(1, 2), c(3, 3))  #Set grid layout
+)  #Display the grid
+```
+

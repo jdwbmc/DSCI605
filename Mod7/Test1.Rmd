@@ -1,0 +1,81 @@
+---
+title: "My Test File"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+Set the working directory:
+
+```{r directory}
+setwd("~/GitHub/DSCI605/Mod7")
+```
+
+# 1. How to emebed image into R Markdnow
+
+This is an example of embedding images in your local folder into R Markdown.
+For example, I have a illustration graph of the links between packages ggplot2, gtable, grid, egg and gridExtra under the folder Mod7. 
+
+![This is my own caption](Histogram_png.png)
+
+This is another way to insert the image and set the position for the image.
+
+```{r rein0, include = TRUE,fig.align = 'center', out.width = "50%", fig.cap = "\\label{fig:rein0}Resized Schematic illustration of my own file."}
+
+knitr::include_graphics("AI4.jpg")
+```
+
+# 2. Create a high quality figure in R Markdown
+
+This is an example of plotting graphs by setting the plotting area and resolution.
+For example, I create a histogram below and set the width, height and resolution in the Chunk options. You can also define the figure size in YAML header and/or define the figure size as global chunk option. This is my own text.
+
+```{r figs1,fig.width=7,fig.height=6,fig.res=200,fig.cap="\\label{fig:figs1}A basic histogram of the file incomes"}
+
+library(ggplot2)
+df <- read.csv("Income-by-states.csv")
+#plot the basic histogram
+ggplot(df, aes(x=income)) + 
+  geom_histogram(binwidth=10000,color="black", fill="blue")
+
+```
+
+# 3. Refer to the figure by indexing the figure.
+
+In Figure \ref{fig:figs1}, we see that the distribution of incomes is close to a normal distribution.
+In Figure \ref{fig:rein0}, we see the illustration graph.
+
+# 4. Create tables using the kable function from the knitr package.
+
+kable takes a data.frame as input, and outputs the table into a markdown table, which will get rendered into the appropriate output format.
+
+For example, let’s say we wanted to share the first 6 rows of our mtcars data.
+
+This gives us the following output:
+```{r tabl,include=TRUE}
+top_mtcars <- head(mtcars)
+
+knitr::kable(top_mtcars,caption= "A Knitr's kable to show the first six rows of 'mtcars'",digits=2)
+
+```
+
+# 5. Refer to the tables
+
+
+For example, let’s say we wanted to share the first 10 rows of our mtcars data.
+
+This gives us the following output:
+```{r tabl1,include=TRUE}
+top_mtcars <- head(mtcars,10)
+
+knitr::kable(top_mtcars,caption= "A Knitr's kable to show the first ten rows of 'mtcars'",digits=2)
+
+```
+
+In Table \ref{tab:tbl1}, we see the first **10** rows  of the dataset "mtcars".

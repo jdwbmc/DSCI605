@@ -1,0 +1,41 @@
+---
+title: "MyBoxTestPlot"
+author: "JDW"
+date: "9/30/2024"
+output: bookdown::html_document2
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Test Basic Box Plots
+
+```{r preplibs, echo=FALSE, include=FALSE}
+if (!require(tidyverse)) {install.packages('tidyverse')}; require(tidyverse)
+if (!require(readxl)) {install.packages('readxl')}; require(readxl)
+library(knitr)
+library(bookdown)
+setwd("~/")
+```
+
+## Get the Data
+
+Load my data
+
+```{r loadData, echo=FALSE}
+land= read_xlsx('Crop_Range_GOES0901_CountJday.xlsx')
+```
+
+## Create a Box Plot
+
+```{r fig1, echo=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="This is my box plot"}
+land %>%filter(jday%in%seq(235,243))%>% ggplot(aes(x=as.factor(jday),y=FDCount,fill=as.factor(jday))) +    geom_boxplot(outlier.colour="red", outlier.shape=8,outlier.size=2)+ xlab("JulianDay") + ##Change thetitleoflegend 
+labs(fill="JulianDay") + 
+ggtitle("Boxplot")
+```
+
+In Figure \@ref(fig:fig1), we see the Box Plot

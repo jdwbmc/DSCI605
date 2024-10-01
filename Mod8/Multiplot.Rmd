@@ -1,0 +1,112 @@
+---
+title: "MultiPlots"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- MultiPlot Demov-->
+
+<!-- Show multiple plots. -->
+
+```{r packages, echo=FALSE, include=FALSE}
+if (!require(tidyverse)) {install.packages('tidyverse')}; require(tidyverse)
+if (!require(readxl)) {install.packages('readxl')}; require(readxl)
+if (!require(colorspace))  {install.packages(colorspace)}; require(colorspace)
+if (!require(gridExtra))  {install.packages("gridExtra")}; require(gridExtra)
+library(bookdown)
+setwd("~/GitHub/DSCI605/Mod8")
+```
+
+<!-- Load data -->
+
+```{r load data, echo=FALSE, results='hide', message=FALSE}
+df <- read_xlsx("Sampledata2.xlsx")
+```
+
+<!-- Create Color Options -->
+
+<!-- Colors are needed for Years. -->
+
+```{r establishColors, echo=FALSE}
+n <- length(unique(df$Year))
+col1=colorspace::diverge_hcl(n)
+```
+
+<!-- Including a Plot -->
+
+## A grouped histogram plot
+
+```{r plot1, echo=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A histogram of Crime Rate over USA"}
+p1 <- df %>% filter(Year %in% c(2013:2018)) %>%
+  ggplot(aes(x=CrimeRate, color=as.factor(Year), fill=as.factor(Year))) + #continuous value
+  geom_histogram(position="dodge", alpha=0.5, bins=10) +
+  scale_color_manual(values=col1) +
+  scale_fill_manual(values=col1) +
+  labs(title="Crime Rate Histogram", x="Crime Rate per 100, 1000 people", y="Count") +
+  labs(fill = 'Year') +
+  guides(color = "none") +
+  theme_classic()
+
+p1
+```
+
+<!-- Calc Crime Summary -->
+
+```{r cs1, echo=FALSE}
+crime_summary <- df %>%
+  group_by(Year) %>%   # Group by Year
+  summarize(
+    mean_crime = mean(CrimeRate, na.rm = TRUE),  # Mean of CrimeRate
+    max_crime = max(CrimeRate, na.rm = TRUE),    # Max of CrimeRate
+    min_crime = min(CrimeRate, na.rm = TRUE)     # Min of CrimeRate
+  )
+```
+
+<!-- Line plot -->
+
+## A scatter plot
+
+```{r lp1, echo=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A scatter plot between Crime Rate with Year"}
+p2 <- ggplot(crime_summary, aes(x = Year, y = mean_crime)) +
+  geom_point(size = 1, color = "black") +  # Points
+  geom_line(color = "blue", linewidth = 0.5) +   # Lines
+  labs(title = "Crime Rate with Year",
+       x = "Year",
+       y = "Mean Crime Rate per 100, 1000 people over USA") +
+  theme_minimal()
+
+p2
+```
+
+<!-- Now Box Plot -->
+
+## A grouped box plot
+```{r bp2, echo=FALSE, warning=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="A box plot of Crime Rate"}
+p3 <- ggplot(df, aes(x=as.factor(Year), y=CrimeRate, fill=as.factor(Year))) + 
+    geom_boxplot(outlier.colour="red", outlier.shape=8,
+                 outlier.size=2) +
+    labs(title="A grouped box plot", x="Year", y="Crime Rate") +
+    theme_classic() +
+    theme(legend.position = "none") +
+    scale_x_discrete(breaks=unique(df$Year))  # Ensure all years are shown
+
+p3
+```
+
+<!-- Grid -->
+
+## All three graphs in one plot
+```{r g1, echo=FALSE, warning=FALSE, fig.align = 'center', out.width = "80%", fig.pos='h', fig.cap="Multiple Plots in one page"}
+
+# Arrange the plots
+grid.arrange(
+  grobs = list(p1, p2, p3), 
+  layout_matrix = rbind(c(1, 2), c(3, 3))
+)
+```
+

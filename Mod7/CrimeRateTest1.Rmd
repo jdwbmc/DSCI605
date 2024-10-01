@@ -1,0 +1,48 @@
+---
+title: "Crime Rates"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::html_document2:
+    number_sections: true
+    df_print: kable
+header-includes:
+  - |
+    <style>
+    table caption {
+      caption-side: bottom;
+      text-align: center;  /* Centers caption */
+    }
+    </style>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r configue, echo=FALSE, include=FALSE}
+setwd("~/GitHub/DSCI605/Mod7")
+library(tidyverse)
+library(knitr)
+library(readxl)
+library(bookdown)
+library(kableExtra)
+```
+
+```{r readData, echo=FALSE}
+df <- read_excel("Sampledata2.xlsx")
+```
+
+## Create Tables
+
+The first table:
+
+```{r tab1,include=TRUE, echo=FALSE}
+mydf <- head(df,10)
+    
+knitr::kable(mydf, digits=2, caption = "This shows the first ten rows of 'Sampledata2'") %>%
+  kable_styling(position = "center", full_width = TRUE)
+```
+
+Once again in Table \@ref(tab:tab1), we see the first **10** rows  of the dataset Sampledata2"
+
