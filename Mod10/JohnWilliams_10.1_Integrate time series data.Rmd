@@ -1,0 +1,111 @@
+---
+title: "DataReduction"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)  #Set up knitr
+```
+
+## Data Reduction
+
+### Load libraries
+```{r libs, echo=TRUE, results='asis', message=FALSE, warning=FALSE}
+#strftime(),base: https://stat.ethz.ch/R-manual/R-devel/library/base/html/strptime.html
+#lubridate package: https://www.rdocumentation.org/packages/lubridate/versions/1.9.2
+
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(knitr)
+library(zoo)
+library(bookdown)
+
+#And set working directory
+setwd("~/Module10")
+```
+
+### Read the data provided
+```{r readData, echo=TRUE}
+######Read the Three-year crime data from 2017-09-01 to 2020-08-31 into R
+crime_bat <- readRDS("Crime3years.rds")
+## Select two-years of data
+two_years_data <- crime_bat %>%  #Go from 3 years to 2 years of data
+  filter(Date >= "2018-01-01" & Date <= "2019-12-31")
+```
+
+### Hourly crime
+```{r plotHourly}
+#Basic time series based on scatter plot - 2 years of hourly data
+two_years_data %>% ggplot(aes(x = Date, y = Battery)) +
+  geom_point(col = "maroon") +  #Plot hourly points
+  geom_line(col = "red") +   #Draw lines between points
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago", 
+       x = "Hourly", y = "Number of Crimes")
+```
+
+## Create new variables
+```{r newvar, echo=TRUE}
+## Create new variables - month and year.
+two_years_data$Date <- as.Date(two_years_data$Date)
+bat_train_new <- two_years_data %>% 
+  mutate(month = month(Date), year = year(Date))
+```
+
+### Group data by month
+```{r grpdata, echo=TRUE, warning=FALSE, message=FALSE}
+#Group the data into monthly (every 30/31 days) data
+bat_train_monthly <- bat_train_new %>% 
+  group_by(month,year) %>%  #Group the data by month and year
+  summarize(case_monthly=sum(Battery)) %>%  #Calculate batteries for entire month
+  mutate(yearmonth=sprintf("%04d%02d", year, month))  #Format yearmonth as a Date type
+```
+
+### First Monthly Plot
+```{r plotmnth, echo=TRUE}
+#####First try for graphing - plot the data as is
+bat_train_monthly%>% 
+  ggplot(aes(x = yearmonth, y = case_monthly,group=1)) +  #Plot month/year and batteries 
+  geom_point(col = "maroon") + geom_line(col = "red") +
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago", 
+       x = "Month", y = "Number of Crimes") #Labels overlap and are hard to read
+```
+
+### Sort my dates
+```{r sortDates, wcho=TRUE}
+bat_train_monthly_sorted <- bat_train_monthly %>%
+  arrange(yearmonth)  #Sort the yearmonth column so months and years are in correct order
+```
+
+### Clearer plot
+```{r plotClear, echo=TRUE}
+#########The best result
+# Convert the yearmonth again to a proper Date format
+bat_train_monthly_sorted <- bat_train_monthly_sorted %>%
+  mutate(yearmonth = as.Date(paste0(substr(yearmonth, 1, 4), "-", 
+                                      substr(yearmonth, 5, 6), "-01")))
+#Now plot the improved data
+bat_train_monthly_sorted %>%
+  ggplot(aes(x = yearmonth, y = case_monthly,group=1)) +
+  geom_point(col = "maroon") + geom_line(col = "red") +
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago",
+       x = "Year-Month", y = "Number of Crimes")+
+  scale_x_date(date_breaks = "3 months", date_labels = "%Y-%m") #Change the x-scale so the x-axis is easier to read
+```
+
+### Insert table and save file
+Create a table:
+```{r tab1,include=TRUE, echo=FALSE, results='asis'}
+top_cr <- bat_train_monthly_sorted %>%
+  select(-yearmonth)  #drop[ the yearmonth column]
+
+#save the data frame as an rds file
+saveRDS(top_cr, file="Crime2years_monthly.rds")
+
+knitr::kable(top_cr,caption= "Battery Crime at a month scale from 2018-01-01 to 2019-12-31",digits=4)  #Use kable to format and display top_cr with a caption
+
+```
+In Table \@ref(tab:tab1), we see the the sorted months and their battery crime rate for 2 years.
+<!-- Add text to reference the table. -->

@@ -1,0 +1,53 @@
+---
+title: "Plotly"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+
+```{r prep, echo=TRUE, results='hide', message=FALSE, warning=FALSE,}
+library(tidyverse)
+library(plotly)
+library(readxl)
+```
+
+## Set WD and read Excel file
+
+```{r startread, echo=TRUE}
+setwd("~/GitHub/DSCI605/Mod9")
+land = readxl::read_xlsx('Crop_Range_GOES0901_CountJday.xlsx')
+```
+
+## Create plot
+
+```{r myplot}
+#Histogram
+plot_ly(land, x = ~FDCount,nbinsx = 10) %>%
+  filter(jday %in% 233) %>%
+  add_histogram(marker = list(color = "teal",
+                              line = list(color = "darkgray",
+                                          width = 2)),
+                name = "Julian Day = 233") %>%
+  layout(title="FDCount Histogram at Julian Day 233",
+         yaxis=list(title = "Count"),
+         xaxis=list(title = "FDCount")) %>%
+  layout(showlegend = TRUE)
+```
+
+## Another way
+
+```{r plt2, echo=TRUE}
+plot_ly(land, x = ~FDCount,nbinsx = 10, type ="histogram") %>%
+  filter(jday %in% 233) %>%
+  layout(title="FDCount Histogram at Julian Day 233",
+         yaxis=list(title = "Count"),
+         xaxis=list(title = "FDCount")) %>% 
+  layout(showlegend = TRUE)
+```
+
