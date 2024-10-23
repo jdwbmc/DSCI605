@@ -1,12 +1,14 @@
 # install.packages(c("FactoMineR", "factoextra"))
 library(FactoMineR)
 library(factoextra)
+library(tidyverse)
 
 data(decathlon2)  #in "FactoMineR" package
 View(decathlon2)
 
 ###subset data
 decathlon2.active <- decathlon2[1:23, 1:10]
+view(decathlon2.active)
 
 ##Conduct PCA
 res.pca <- PCA(decathlon2.active,scale.unit = TRUE,ncp = 5,graph = FALSE)

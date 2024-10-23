@@ -1,0 +1,90 @@
+---
+title: "Coding Template for Module 12"
+author: "jdw"
+date: "2024-04-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# This is Coding Template for Module 12
+
+## Please note "Your code" is what you need to fill in with the real code.
+
+For example, 
+ 
+  **setwd("Your code")**
+
+I will write the code like this
+
+  **setwd("C:/Users/ali3/DSCI605/Week12/12.3")**
+
+## Note: Please include the necessary quotations as needed, depending on your actual code. Your code could be many lines or one line. But make sure after you use your code institute "Your code", your whole code file should be ran successfully. 
+
+
+```{r load packages}
+# Load the packages
+library(tidyverse)
+library(raster)          #raster()
+library(sf)              #st_read()
+library(ggspatial)       #annotation_scale,annotation_north_arrow
+library(ggnewscale)      #new_scale_color() 
+library(ggsn)            #scalebar()
+```
+
+
+```{r readdata}
+#Set the working directory
+setwd("~/GitHub/DSCI605/Mod12")
+
+
+```
+
+```{r readdata1}
+### Read all states in USA. Please note tl_2019_us_state.shp is located in the file folder "tl_2019_us_state". A shapefile data includes many files in the file folder. You cannot have only file "tl_2019_us_state.shp". 
+
+"Your code"
+
+##Select Indiana (IN) from the object "state". This process is analogous to working with data frames. You can perform a similar operation for the cities.
+
+"Your code"
+
+##Read the Watershed in Indiana. Similar like the all states in USA.
+"Your code"
+
+##Read the Polygons of cities in Indiana. Similar like the all states in USA.
+"Your code"
+
+##Select cities of interest
+"Your code"
+
+```
+
+
+## A basic spatial map like the one in the example file
+
+#########Set the figure width and height. Use alpha = 0 for the complete transparency in case the polygons cover the previous layer. 
+
+```{r plot1, fig.width=12,fig.height=10}
+
+"Your code"
+
+```
+
+##############Provide a color vector. Please get colors from the package "colorspace" and use its built-in function diverge_hcl().
+
+```{r colors}
+"Your code"
+```
+
+
+## A professional spatial map like the one in the example file
+
+
+```{r plot2, fig.width=12,fig.height=10}
+
+"Your code"
+  
+```

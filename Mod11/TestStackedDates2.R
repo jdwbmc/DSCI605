@@ -1,0 +1,91 @@
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(zoo)
+library(knitr)
+library(bookdown)
+library(ISOweek)
+
+#And set working directory
+setwd("~/GitHub/DSCI605/Mod11")
+
+######Read the Three-year crime data from 2017-09-01 to 2020-08-31 into R
+crime_bat <- readRDS("Crime3years.rds")
+## Select two-years of data
+two_years_data <- crime_bat %>%  #Go from 3 years to 2 years of data
+  filter(Date >= "2018-01-01 00:00:00" & Date <= "2019-12-31 23:00:00")
+
+glimpse(two_years_data)
+
+bat_train_new<-two_years_data %>% 
+  mutate(hour = hour(two_years_data$Date),week= weekdays(two_years_data$Date),  
+         month = month(two_years_data$Date),
+         year=year(two_years_data$Date)) %>% #Get the hours, months and years from Date
+  mutate(weeknum= strftime(Date, format = '%V')) %>%   #Get the week number in a year.
+  mutate(dates= as.Date(strftime(Date, format = '%F')))  #Remove the time in Date and get only the date like 2018-01-01.
+
+bat_train_new <- bat_train_new[bat_train_new$year <= "2019", ]
+
+glimpse(bat_train_new)
+
+### Plot Hourly crime
+
+#Basic time series based on scatter plot - 2 years of hourly data
+bat_train_new %>% ggplot(aes(x = Date, y = Battery)) +
+  geom_point(col = "maroon") +  #Plot hourly points
+  geom_line(col = "red") +   #Draw lines between points
+  scale_x_datetime(date_labels = "%Y/%m/%d-%H:%M:%S") +
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago", 
+       x = "Hourly", y = "Number of Crimes")
+
+#Create battery week
+
+battery_week <- bat_train_new %>%
+  group_by(weeknum, year) %>%
+  summarize(yearweek=min(dates),case_weekly=sum(Battery)) %>%
+  ungroup() %>%
+  arrange(year, weeknum)
+
+glimpse(battery_week)
+
+# Plot weekly
+battery_week %>% ggplot(aes(x = yearweek, y = case_weekly)) +
+  geom_point(col = "maroon") +  #Plot weekly points
+  geom_line(col = "red") +   #Draw lines between points
+  scale_x_date(date_breaks = "4 months", date_labels = "%Y/%V") +
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago", 
+       x = "Year/Week", y = "Number of Crimes")
+
+# Create battery month
+battery_month <- bat_train_new %>%
+  group_by(month, year) %>%
+  summarize(battery_by_month = sum(Battery, na.rm = TRUE)) %>%
+  arrange(year, month) %>%  # Sorting by year, then month, then day
+  mutate(yearmonth=sprintf("%04d%02d", year, month)) %>%  #Format yearmonth as a character type
+  mutate(yearmonth = as.Date(paste0(substr(yearmonth, 1, 4), "-", 
+                                  substr(yearmonth, 5, 6), "-01")))
+glimpse(battery_month)
+
+#Now plot monthly
+battery_month %>%
+  ggplot(aes(x = yearmonth, y = battery_by_month,group=1)) +
+  geom_point(col = "maroon") + geom_line(col = "red") +
+  scale_x_date(date_breaks = "3 months", date_labels = "%Y-%b") + #Change the x-scale so the x-axis is easier to read
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago",
+       x = "Year-Month", y = "Number of Crimes")
+
+
+# Prep for stacked
+battery_month2 <- battery_month %>%
+  mutate(day=1,Year=2023) %>%
+  mutate(newdate=as.Date(paste(day,month,Year,sep="."),"%d.%m.%Y"))
+
+# Plot Stacked the two years data by two lines 
+ggplot(battery_month2,aes(x=newdate, y=battery_by_month,color=as.factor(year))) +
+  geom_point() + 
+  geom_line() +
+  scale_x_date(date_labels = "%b")+
+  theme(axis.text.x=element_text(angle=30, hjust=1)) +
+  guides(color=guide_legend(title = "Year")) +
+  labs(title = "Battery Crime from 2018-01-01 to 2019-12-31 in Chicago",
+       x = "Date", y = "Number of Crimes")
