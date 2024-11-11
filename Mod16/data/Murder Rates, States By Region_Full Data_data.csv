@@ -1,0 +1,1871 @@
+﻿Region,State,Year of Year,Death Penalty Status,Murder Rate,Number of Records
+South,Alabama,1987,Death Penalty,9.31,1
+West,Alaska,1987,No Death Penalty,10.1,1
+West,Arizona,1987,Death Penalty,7.47,1
+South,Arkansas,1987,Death Penalty,7.62,1
+West,California,1987,Death Penalty,10.57,1
+West,Colorado,1987,Death Penalty,5.79,1
+Northeast,Connecticut,1987,Death Penalty,4.86,1
+South,Delaware,1987,Death Penalty,5.12,1
+South,Florida,1987,Death Penalty,11.4,1
+South,Georgia,1987,Death Penalty,11.81,1
+West,Hawaii,1987,No Death Penalty,4.8,1
+West,Idaho,1987,Death Penalty,3.11,1
+Midwest,Illinois,1987,Death Penalty,8.35,1
+Midwest,Indiana,1987,Death Penalty,5.55,1
+Midwest,Iowa,1987,No Death Penalty,2.08,1
+Midwest,Kansas,1987,No Death Penalty,4.44,1
+South,Kentucky,1987,Death Penalty,7.51,1
+South,Louisiana,1987,Death Penalty,11.12,1
+Northeast,Maine,1987,No Death Penalty,2.53,1
+South,Maryland,1987,Death Penalty,9.61,1
+Northeast,Massachusetts,1987,No Death Penalty,2.95,1
+Midwest,Michigan,1987,No Death Penalty,12.22,1
+Midwest,Minnesota,1987,No Death Penalty,2.64,1
+South,Mississippi,1987,Death Penalty,10.25,1
+Midwest,Missouri,1987,Death Penalty,8.29,1
+West,Montana,1987,Death Penalty,4.08,1
+Midwest,Nebraska,1987,Death Penalty,3.45,1
+West,Nevada,1987,Death Penalty,8.44,1
+Northeast,New Hampshire,1987,Death Penalty,3.03,1
+Northeast,New Jersey,1987,Death Penalty,4.58,1
+West,New Mexico,1987,Death Penalty,10.13,1
+Northeast,New York,1987,No Death Penalty,11.31,1
+South,North Carolina,1987,Death Penalty,8.09,1
+Midwest,North Dakota,1987,No Death Penalty,1.49,1
+Midwest,Ohio,1987,Death Penalty,5.84,1
+South,Oklahoma,1987,Death Penalty,7.46,1
+West,Oregon,1987,Death Penalty,5.62,1
+Northeast,Pennsylvania,1987,Death Penalty,5.38,1
+Northeast,Rhode Island,1987,No Death Penalty,3.55,1
+South,South Carolina,1987,Death Penalty,9.28,1
+Midwest,South Dakota,1987,Death Penalty,1.83,1
+South,Tennessee,1987,Death Penalty,9.15,1
+South,Texas,1987,Death Penalty,11.67,1
+West,Utah,1987,Death Penalty,3.27,1
+Northeast,Vermont,1987,No Death Penalty,2.74,1
+South,Virginia,1987,Death Penalty,7.4,1
+West,Washington,1987,Death Penalty,5.64,1
+South,West Virginia,1987,No Death Penalty,4.85,1
+Midwest,Wisconsin,1987,No Death Penalty,3.49,1
+West,Wyoming,1987,Death Penalty,2.04,1
+Midwest,x-Midwest,1987,Region,6.7,1
+Northeast,x-Northeast,1987,Region,6.9,1
+South,x-South,1987,Region,10,1
+United States,x-United States,1987,Region,8.3,1
+West,x-West,1987,Region,8.5,1
+South,Alabama,1988,Death Penalty,9.89,1
+West,Alaska,1988,No Death Penalty,5.65,1
+West,Arizona,1988,Death Penalty,8.48,1
+South,Arkansas,1988,Death Penalty,8.71,1
+West,California,1988,Death Penalty,10.42,1
+West,Colorado,1988,Death Penalty,5.68,1
+Northeast,Connecticut,1988,Death Penalty,5.37,1
+South,Delaware,1988,Death Penalty,5.15,1
+South,Florida,1988,Death Penalty,11.44,1
+South,Georgia,1988,Death Penalty,11.69,1
+West,Hawaii,1988,No Death Penalty,4.03,1
+West,Idaho,1988,Death Penalty,3.6,1
+Midwest,Illinois,1988,Death Penalty,8.58,1
+Midwest,Indiana,1988,Death Penalty,6.42,1
+Midwest,Iowa,1988,No Death Penalty,1.66,1
+Midwest,Kansas,1988,No Death Penalty,3.42,1
+South,Kentucky,1988,Death Penalty,6.15,1
+South,Louisiana,1988,Death Penalty,11.58,1
+Northeast,Maine,1988,No Death Penalty,3.07,1
+South,Maryland,1988,Death Penalty,9.67,1
+Northeast,Massachusetts,1988,No Death Penalty,3.54,1
+Midwest,Michigan,1988,No Death Penalty,10.85,1
+Midwest,Minnesota,1988,No Death Penalty,2.88,1
+South,Mississippi,1988,Death Penalty,8.56,1
+Midwest,Missouri,1988,Death Penalty,8.04,1
+West,Montana,1988,Death Penalty,2.61,1
+Midwest,Nebraska,1988,Death Penalty,3.62,1
+West,Nevada,1988,Death Penalty,10.47,1
+Northeast,New Hampshire,1988,Death Penalty,2.28,1
+Northeast,New Jersey,1988,Death Penalty,5.32,1
+West,New Mexico,1988,Death Penalty,11.46,1
+Northeast,New York,1988,No Death Penalty,12.54,1
+South,North Carolina,1988,Death Penalty,7.81,1
+Midwest,North Dakota,1988,No Death Penalty,1.81,1
+Midwest,Ohio,1988,Death Penalty,5.38,1
+South,Oklahoma,1988,Death Penalty,7.45,1
+West,Oregon,1988,Death Penalty,5.07,1
+Northeast,Pennsylvania,1988,Death Penalty,5.49,1
+Northeast,Rhode Island,1988,No Death Penalty,4.12,1
+South,South Carolina,1988,Death Penalty,9.3,1
+Midwest,South Dakota,1988,Death Penalty,3.08,1
+South,Tennessee,1988,Death Penalty,9.37,1
+South,Texas,1988,Death Penalty,12.05,1
+West,Utah,1988,Death Penalty,2.78,1
+Northeast,Vermont,1988,No Death Penalty,1.98,1
+South,Virginia,1988,Death Penalty,7.81,1
+West,Washington,1988,Death Penalty,5.72,1
+South,West Virginia,1988,No Death Penalty,4.94,1
+Midwest,Wisconsin,1988,No Death Penalty,2.96,1
+West,Wyoming,1988,Death Penalty,2.55,1
+Midwest,x-Midwest,1988,Region,6.4,1
+Northeast,x-Northeast,1988,Region,7.5,1
+South,x-South,1988,Region,10.3,1
+United States,x-United States,1988,Region,8.4,1
+West,x-West,1988,Region,8.5,1
+South,Alabama,1989,Death Penalty,10.22,1
+West,Alaska,1989,No Death Penalty,7.97,1
+West,Arizona,1989,Death Penalty,6.66,1
+South,Arkansas,1989,Death Penalty,8.44,1
+West,California,1989,Death Penalty,10.87,1
+West,Colorado,1989,Death Penalty,4.4,1
+Northeast,Connecticut,1989,Death Penalty,5.87,1
+South,Delaware,1989,Death Penalty,5.05,1
+South,Florida,1989,Death Penalty,11.09,1
+South,Georgia,1989,Death Penalty,12.74,1
+West,Hawaii,1989,No Death Penalty,4.77,1
+West,Idaho,1989,Death Penalty,2.56,1
+Midwest,Illinois,1989,Death Penalty,9.02,1
+Midwest,Indiana,1989,Death Penalty,6.31,1
+Midwest,Iowa,1989,No Death Penalty,1.9,1
+Midwest,Kansas,1989,No Death Penalty,5.49,1
+South,Kentucky,1989,Death Penalty,7.86,1
+South,Louisiana,1989,Death Penalty,14.9,1
+Northeast,Maine,1989,No Death Penalty,3.19,1
+South,Maryland,1989,Death Penalty,11.59,1
+Northeast,Massachusetts,1989,No Death Penalty,4.3,1
+Midwest,Michigan,1989,No Death Penalty,10.71,1
+Midwest,Minnesota,1989,No Death Penalty,2.55,1
+South,Mississippi,1989,Death Penalty,9.65,1
+Midwest,Missouri,1989,Death Penalty,7.93,1
+West,Montana,1989,Death Penalty,2.85,1
+Midwest,Nebraska,1989,Death Penalty,2.48,1
+West,Nevada,1989,Death Penalty,8.19,1
+Northeast,New Hampshire,1989,Death Penalty,3.25,1
+Northeast,New Jersey,1989,Death Penalty,5.09,1
+West,New Mexico,1989,Death Penalty,8.64,1
+Northeast,New York,1989,No Death Penalty,12.51,1
+South,North Carolina,1989,Death Penalty,8.89,1
+Midwest,North Dakota,1989,No Death Penalty,0.61,1
+Midwest,Ohio,1989,Death Penalty,5.98,1
+South,Oklahoma,1989,Death Penalty,6.51,1
+West,Oregon,1989,Death Penalty,4.75,1
+Northeast,Pennsylvania,1989,Death Penalty,6.25,1
+Northeast,Rhode Island,1989,No Death Penalty,4.91,1
+South,South Carolina,1989,Death Penalty,9.11,1
+Midwest,South Dakota,1989,Death Penalty,1.26,1
+South,Tennessee,1989,Death Penalty,8.44,1
+South,Texas,1989,Death Penalty,11.94,1
+West,Utah,1989,Death Penalty,2.64,1
+Northeast,Vermont,1989,No Death Penalty,1.94,1
+South,Virginia,1989,Death Penalty,7.87,1
+West,Washington,1989,Death Penalty,4.39,1
+South,West Virginia,1989,No Death Penalty,6.52,1
+Midwest,Wisconsin,1989,No Death Penalty,3.62,1
+West,Wyoming,1989,Death Penalty,4.42,1
+Midwest,x-Midwest,1989,Region,6.6,1
+Northeast,x-Northeast,1989,Region,7.8,1
+South,x-South,1989,Region,10.8,1
+United States,x-United States,1989,Region,8.7,1
+West,x-West,1989,Region,8.3,1
+South,Alabama,1990,Death Penalty,11.56,1
+West,Alaska,1990,No Death Penalty,7.45,1
+West,Arizona,1990,Death Penalty,7.75,1
+South,Arkansas,1990,Death Penalty,10.25,1
+West,California,1990,Death Penalty,11.94,1
+West,Colorado,1990,Death Penalty,4.19,1
+Northeast,Connecticut,1990,Death Penalty,5.05,1
+South,Delaware,1990,Death Penalty,4.95,1
+South,Florida,1990,Death Penalty,10.66,1
+South,Georgia,1990,Death Penalty,11.84,1
+West,Hawaii,1990,No Death Penalty,3.97,1
+West,Idaho,1990,Death Penalty,2.68,1
+Midwest,Illinois,1990,Death Penalty,10.34,1
+Midwest,Indiana,1990,Death Penalty,6.2,1
+Midwest,Iowa,1990,No Death Penalty,1.94,1
+Midwest,Kansas,1990,No Death Penalty,3.96,1
+South,Kentucky,1990,Death Penalty,7.16,1
+South,Louisiana,1990,Death Penalty,17.16,1
+Northeast,Maine,1990,No Death Penalty,2.44,1
+South,Maryland,1990,Death Penalty,11.54,1
+Northeast,Massachusetts,1990,No Death Penalty,4.04,1
+Midwest,Michigan,1990,No Death Penalty,10.45,1
+Midwest,Minnesota,1990,No Death Penalty,2.67,1
+South,Mississippi,1990,Death Penalty,12.16,1
+Midwest,Missouri,1990,Death Penalty,8.77,1
+West,Montana,1990,Death Penalty,4.88,1
+Midwest,Nebraska,1990,Death Penalty,2.72,1
+West,Nevada,1990,Death Penalty,9.65,1
+Northeast,New Hampshire,1990,Death Penalty,1.89,1
+Northeast,New Jersey,1990,Death Penalty,5.59,1
+West,New Mexico,1990,Death Penalty,9.17,1
+Northeast,New York,1990,No Death Penalty,14.48,1
+South,North Carolina,1990,Death Penalty,10.73,1
+Midwest,North Dakota,1990,No Death Penalty,0.78,1
+Midwest,Ohio,1990,Death Penalty,6.11,1
+South,Oklahoma,1990,Death Penalty,8.04,1
+West,Oregon,1990,Death Penalty,3.8,1
+Northeast,Pennsylvania,1990,Death Penalty,6.74,1
+Northeast,Rhode Island,1990,No Death Penalty,4.78,1
+South,South Carolina,1990,Death Penalty,11.19,1
+Midwest,South Dakota,1990,Death Penalty,2.01,1
+South,Tennessee,1990,Death Penalty,10.48,1
+South,Texas,1990,Death Penalty,14.06,1
+West,Utah,1990,Death Penalty,3.02,1
+Northeast,Vermont,1990,No Death Penalty,2.31,1
+South,Virginia,1990,Death Penalty,8.81,1
+West,Washington,1990,Death Penalty,4.89,1
+South,West Virginia,1990,No Death Penalty,5.69,1
+Midwest,Wisconsin,1990,No Death Penalty,4.6,1
+West,Wyoming,1990,Death Penalty,4.85,1
+Midwest,x-Midwest,1990,Region,7,1
+Northeast,x-Northeast,1990,Region,8.6,1
+South,x-South,1990,Region,11.8,1
+United States,x-United States,1990,Region,9.4,1
+West,x-West,1990,Region,9.1,1
+South,Alabama,1991,Death Penalty,11.47,1
+West,Alaska,1991,No Death Penalty,7.37,1
+West,Arizona,1991,Death Penalty,7.76,1
+South,Arkansas,1991,Death Penalty,11.13,1
+West,California,1991,Death Penalty,12.7,1
+West,Colorado,1991,Death Penalty,5.89,1
+Northeast,Connecticut,1991,Death Penalty,5.68,1
+South,Delaware,1991,Death Penalty,5.44,1
+South,Florida,1991,Death Penalty,9.4,1
+South,Georgia,1991,Death Penalty,12.82,1
+West,Hawaii,1991,No Death Penalty,3.96,1
+West,Idaho,1991,Death Penalty,1.83,1
+Midwest,Illinois,1991,Death Penalty,11.26,1
+Midwest,Indiana,1991,Death Penalty,7.54,1
+Midwest,Iowa,1991,No Death Penalty,2.04,1
+Midwest,Kansas,1991,No Death Penalty,6.13,1
+South,Kentucky,1991,Death Penalty,6.81,1
+South,Louisiana,1991,Death Penalty,16.93,1
+Northeast,Maine,1991,No Death Penalty,1.21,1
+South,Maryland,1991,Death Penalty,11.71,1
+Northeast,Massachusetts,1991,No Death Penalty,4.15,1
+Midwest,Michigan,1991,No Death Penalty,10.77,1
+Midwest,Minnesota,1991,No Death Penalty,2.96,1
+South,Mississippi,1991,Death Penalty,12.81,1
+Midwest,Missouri,1991,Death Penalty,10.53,1
+West,Montana,1991,Death Penalty,2.6,1
+Midwest,Nebraska,1991,Death Penalty,3.26,1
+West,Nevada,1991,Death Penalty,11.84,1
+Northeast,New Hampshire,1991,Death Penalty,3.62,1
+Northeast,New Jersey,1991,Death Penalty,5.23,1
+West,New Mexico,1991,Death Penalty,10.53,1
+Northeast,New York,1991,No Death Penalty,14.24,1
+South,North Carolina,1991,Death Penalty,11.41,1
+Midwest,North Dakota,1991,No Death Penalty,1.1,1
+Midwest,Ohio,1991,Death Penalty,7.16,1
+South,Oklahoma,1991,Death Penalty,7.24,1
+West,Oregon,1991,Death Penalty,4.55,1
+Northeast,Pennsylvania,1991,Death Penalty,6.34,1
+Northeast,Rhode Island,1991,No Death Penalty,3.69,1
+South,South Carolina,1991,Death Penalty,11.29,1
+Midwest,South Dakota,1991,Death Penalty,1.71,1
+South,Tennessee,1991,Death Penalty,11.04,1
+South,Texas,1991,Death Penalty,15.29,1
+West,Utah,1991,Death Penalty,2.94,1
+Northeast,Vermont,1991,No Death Penalty,2.12,1
+South,Virginia,1991,Death Penalty,9.27,1
+West,Washington,1991,Death Penalty,4.2,1
+South,West Virginia,1991,No Death Penalty,6.16,1
+Midwest,Wisconsin,1991,No Death Penalty,4.82,1
+West,Wyoming,1991,Death Penalty,3.26,1
+Midwest,x-Midwest,1991,Region,7.8,1
+Northeast,x-Northeast,1991,Region,8.4,1
+South,x-South,1991,Region,12.1,1
+United States,x-United States,1991,Region,9.8,1
+West,x-West,1991,Region,9.6,1
+South,Alabama,1992,Death Penalty,11,1
+West,Alaska,1992,No Death Penalty,7.5,1
+West,Arizona,1992,Death Penalty,8.14,1
+South,Arkansas,1992,Death Penalty,10.8,1
+West,California,1992,Death Penalty,12.7,1
+West,Colorado,1992,Death Penalty,6.22,1
+Northeast,Connecticut,1992,Death Penalty,5.06,1
+South,Delaware,1992,Death Penalty,4.64,1
+South,Florida,1992,Death Penalty,8.96,1
+South,Georgia,1992,Death Penalty,10.98,1
+West,Hawaii,1992,No Death Penalty,3.62,1
+West,Idaho,1992,Death Penalty,3.47,1
+Midwest,Illinois,1992,Death Penalty,11.37,1
+Midwest,Indiana,1992,Death Penalty,8.19,1
+Midwest,Iowa,1992,No Death Penalty,1.56,1
+Midwest,Kansas,1992,No Death Penalty,5.98,1
+South,Kentucky,1992,Death Penalty,5.75,1
+South,Louisiana,1992,Death Penalty,17.42,1
+Northeast,Maine,1992,No Death Penalty,1.7,1
+South,Maryland,1992,Death Penalty,12.14,1
+Northeast,Massachusetts,1992,No Death Penalty,3.57,1
+Midwest,Michigan,1992,No Death Penalty,9.94,1
+Midwest,Minnesota,1992,No Death Penalty,3.35,1
+South,Mississippi,1992,Death Penalty,12.24,1
+Midwest,Missouri,1992,Death Penalty,10.53,1
+West,Montana,1992,Death Penalty,2.91,1
+Midwest,Nebraska,1992,Death Penalty,4.23,1
+West,Nevada,1992,Death Penalty,10.93,1
+Northeast,New Hampshire,1992,Death Penalty,1.62,1
+Northeast,New Jersey,1992,Death Penalty,5.1,1
+West,New Mexico,1992,Death Penalty,8.92,1
+Northeast,New York,1992,No Death Penalty,13.23,1
+South,North Carolina,1992,Death Penalty,10.57,1
+Midwest,North Dakota,1992,No Death Penalty,1.89,1
+Midwest,Ohio,1992,Death Penalty,6.57,1
+South,Oklahoma,1992,Death Penalty,6.54,1
+West,Oregon,1992,Death Penalty,4.67,1
+Northeast,Pennsylvania,1992,Death Penalty,6.21,1
+Northeast,Rhode Island,1992,No Death Penalty,3.58,1
+South,South Carolina,1992,Death Penalty,10.35,1
+Midwest,South Dakota,1992,Death Penalty,0.56,1
+South,Tennessee,1992,Death Penalty,10.35,1
+South,Texas,1992,Death Penalty,12.68,1
+West,Utah,1992,Death Penalty,2.98,1
+Northeast,Vermont,1992,No Death Penalty,2.11,1
+South,Virginia,1992,Death Penalty,8.84,1
+West,Washington,1992,Death Penalty,5.02,1
+South,West Virginia,1992,No Death Penalty,6.35,1
+Midwest,Wisconsin,1992,No Death Penalty,4.35,1
+West,Wyoming,1992,Death Penalty,3.65,1
+Midwest,x-Midwest,1992,Region,7.6,1
+Northeast,x-Northeast,1992,Region,7.8,1
+South,x-South,1992,Region,11.1,1
+United States,x-United States,1992,Region,9.3,1
+West,x-West,1992,Region,9.7,1
+South,Alabama,1993,Death Penalty,11.56,1
+West,Alaska,1993,No Death Penalty,9.02,1
+West,Arizona,1993,Death Penalty,8.61,1
+South,Arkansas,1993,Death Penalty,10.19,1
+West,California,1993,Death Penalty,13.12,1
+West,Colorado,1993,Death Penalty,5.78,1
+Northeast,Connecticut,1993,Death Penalty,6.29,1
+South,Delaware,1993,Death Penalty,5,1
+South,Florida,1993,Death Penalty,8.95,1
+South,Georgia,1993,Death Penalty,11.41,1
+West,Hawaii,1993,No Death Penalty,3.84,1
+West,Idaho,1993,Death Penalty,2.91,1
+Midwest,Illinois,1993,Death Penalty,11.39,1
+Midwest,Indiana,1993,Death Penalty,7.53,1
+Midwest,Iowa,1993,No Death Penalty,2.35,1
+Midwest,Kansas,1993,No Death Penalty,6.36,1
+South,Kentucky,1993,Death Penalty,6.57,1
+South,Louisiana,1993,Death Penalty,20.35,1
+Northeast,Maine,1993,No Death Penalty,1.61,1
+South,Maryland,1993,Death Penalty,12.73,1
+Northeast,Massachusetts,1993,No Death Penalty,3.88,1
+Midwest,Michigan,1993,No Death Penalty,9.84,1
+Midwest,Minnesota,1993,No Death Penalty,3.43,1
+South,Mississippi,1993,Death Penalty,13.51,1
+Midwest,Missouri,1993,Death Penalty,11.27,1
+West,Montana,1993,Death Penalty,2.98,1
+Midwest,Nebraska,1993,Death Penalty,3.92,1
+West,Nevada,1993,Death Penalty,10.37,1
+Northeast,New Hampshire,1993,Death Penalty,2.04,1
+Northeast,New Jersey,1993,Death Penalty,5.31,1
+West,New Mexico,1993,Death Penalty,8.04,1
+Northeast,New York,1993,No Death Penalty,13.3,1
+South,North Carolina,1993,Death Penalty,11.3,1
+Midwest,North Dakota,1993,No Death Penalty,1.73,1
+Midwest,Ohio,1993,Death Penalty,6.01,1
+South,Oklahoma,1993,Death Penalty,8.45,1
+West,Oregon,1993,Death Penalty,4.62,1
+Northeast,Pennsylvania,1993,Death Penalty,6.83,1
+Northeast,Rhode Island,1993,No Death Penalty,3.9,1
+South,South Carolina,1993,Death Penalty,10.35,1
+Midwest,South Dakota,1993,Death Penalty,3.36,1
+South,Tennessee,1993,Death Penalty,10.22,1
+South,Texas,1993,Death Penalty,11.91,1
+West,Utah,1993,Death Penalty,3.12,1
+Northeast,Vermont,1993,No Death Penalty,3.65,1
+South,Virginia,1993,Death Penalty,8.3,1
+West,Washington,1993,Death Penalty,5.16,1
+South,West Virginia,1993,No Death Penalty,6.92,1
+Midwest,Wisconsin,1993,No Death Penalty,4.41,1
+West,Wyoming,1993,Death Penalty,3.4,1
+Midwest,x-Midwest,1993,Region,7.6,1
+Northeast,x-Northeast,1993,Region,8.2,1
+South,x-South,1993,Region,11.3,1
+United States,x-United States,1993,Region,9.5,1
+West,x-West,1993,Region,9.9,1
+South,Alabama,1994,Death Penalty,11.87,1
+West,Alaska,1994,No Death Penalty,6.27,1
+West,Arizona,1994,Death Penalty,10.45,1
+South,Arkansas,1994,Death Penalty,11.99,1
+West,California,1994,Death Penalty,11.78,1
+West,Colorado,1994,Death Penalty,5.44,1
+Northeast,Connecticut,1994,Death Penalty,6.56,1
+South,Delaware,1994,Death Penalty,4.67,1
+South,Florida,1994,Death Penalty,8.35,1
+South,Georgia,1994,Death Penalty,9.96,1
+West,Hawaii,1994,No Death Penalty,4.24,1
+West,Idaho,1994,Death Penalty,3.53,1
+Midwest,Illinois,1994,Death Penalty,11.73,1
+Midwest,Indiana,1994,Death Penalty,7.88,1
+Midwest,Iowa,1994,No Death Penalty,1.66,1
+Midwest,Kansas,1994,Death Penalty,6.66,1
+South,Kentucky,1994,Death Penalty,6.38,1
+South,Louisiana,1994,Death Penalty,19.84,1
+Northeast,Maine,1994,No Death Penalty,2.26,1
+South,Maryland,1994,Death Penalty,11.57,1
+Northeast,Massachusetts,1994,No Death Penalty,3.54,1
+Midwest,Michigan,1994,No Death Penalty,9.76,1
+Midwest,Minnesota,1994,No Death Penalty,3.22,1
+South,Mississippi,1994,Death Penalty,15.32,1
+Midwest,Missouri,1994,Death Penalty,10.5,1
+West,Montana,1994,Death Penalty,3.27,1
+Midwest,Nebraska,1994,Death Penalty,3.14,1
+West,Nevada,1994,Death Penalty,11.67,1
+Northeast,New Hampshire,1994,Death Penalty,1.41,1
+Northeast,New Jersey,1994,Death Penalty,5.01,1
+West,New Mexico,1994,Death Penalty,10.7,1
+Northeast,New York,1994,No Death Penalty,11.1,1
+South,North Carolina,1994,Death Penalty,10.92,1
+Midwest,North Dakota,1994,No Death Penalty,0.16,1
+Midwest,Ohio,1994,Death Penalty,5.96,1
+South,Oklahoma,1994,Death Penalty,6.94,1
+West,Oregon,1994,Death Penalty,4.86,1
+Northeast,Pennsylvania,1994,Death Penalty,5.91,1
+Northeast,Rhode Island,1994,No Death Penalty,4.11,1
+South,South Carolina,1994,Death Penalty,9.63,1
+Midwest,South Dakota,1994,Death Penalty,1.39,1
+South,Tennessee,1994,Death Penalty,9.31,1
+South,Texas,1994,Death Penalty,11,1
+West,Utah,1994,Death Penalty,2.94,1
+Northeast,Vermont,1994,No Death Penalty,1.03,1
+South,Virginia,1994,Death Penalty,8.71,1
+West,Washington,1994,Death Penalty,5.5,1
+South,West Virginia,1994,No Death Penalty,5.43,1
+Midwest,Wisconsin,1994,No Death Penalty,4.47,1
+West,Wyoming,1994,Death Penalty,3.36,1
+Midwest,x-Midwest,1994,Region,7.5,1
+Northeast,x-Northeast,1994,Region,7.1,1
+South,x-South,1994,Region,10.7,1
+United States,x-United States,1994,Region,9,1
+West,x-West,1994,Region,9.4,1
+South,Alabama,1995,Death Penalty,11.17,1
+West,Alaska,1995,No Death Penalty,9.11,1
+West,Arizona,1995,Death Penalty,10.41,1
+South,Arkansas,1995,Death Penalty,10.43,1
+West,California,1995,Death Penalty,11.18,1
+West,Colorado,1995,Death Penalty,5.76,1
+Northeast,Connecticut,1995,Death Penalty,4.58,1
+South,Delaware,1995,Death Penalty,3.49,1
+South,Florida,1995,Death Penalty,7.32,1
+South,Georgia,1995,Death Penalty,9.48,1
+West,Hawaii,1995,No Death Penalty,4.72,1
+West,Idaho,1995,Death Penalty,4.13,1
+Midwest,Illinois,1995,Death Penalty,10.32,1
+Midwest,Indiana,1995,Death Penalty,8.03,1
+Midwest,Iowa,1995,No Death Penalty,1.79,1
+Midwest,Kansas,1995,Death Penalty,6.2,1
+South,Kentucky,1995,Death Penalty,7.15,1
+South,Louisiana,1995,Death Penalty,17.04,1
+Northeast,Maine,1995,No Death Penalty,2.01,1
+South,Maryland,1995,Death Penalty,11.82,1
+Northeast,Massachusetts,1995,No Death Penalty,3.57,1
+Midwest,Michigan,1995,No Death Penalty,8.46,1
+Midwest,Minnesota,1995,No Death Penalty,3.95,1
+South,Mississippi,1995,Death Penalty,12.9,1
+Midwest,Missouri,1995,Death Penalty,8.81,1
+West,Montana,1995,Death Penalty,4.02,1
+Midwest,Nebraska,1995,Death Penalty,2.93,1
+West,Nevada,1995,Death Penalty,10.65,1
+Northeast,New Hampshire,1995,Death Penalty,1.83,1
+Northeast,New Jersey,1995,Death Penalty,5.15,1
+West,New Mexico,1995,Death Penalty,8.78,1
+Northeast,New York,1995,Death Penalty,8.55,1
+South,North Carolina,1995,Death Penalty,9.41,1
+Midwest,North Dakota,1995,No Death Penalty,0.94,1
+Midwest,Ohio,1995,Death Penalty,5.38,1
+South,Oklahoma,1995,Death Penalty,12.2,1
+West,Oregon,1995,Death Penalty,4.11,1
+Northeast,Pennsylvania,1995,Death Penalty,6.25,1
+Northeast,Rhode Island,1995,No Death Penalty,3.33,1
+South,South Carolina,1995,Death Penalty,7.95,1
+Midwest,South Dakota,1995,Death Penalty,1.78,1
+South,Tennessee,1995,Death Penalty,10.6,1
+South,Texas,1995,Death Penalty,9.04,1
+West,Utah,1995,Death Penalty,3.9,1
+Northeast,Vermont,1995,No Death Penalty,2.22,1
+South,Virginia,1995,Death Penalty,7.6,1
+West,Washington,1995,Death Penalty,5.06,1
+South,West Virginia,1995,No Death Penalty,4.87,1
+Midwest,Wisconsin,1995,No Death Penalty,4.27,1
+West,Wyoming,1995,Death Penalty,2.08,1
+Midwest,x-Midwest,1995,Region,6.9,1
+Northeast,x-Northeast,1995,Region,6.2,1
+South,x-South,1995,Region,9.8,1
+United States,x-United States,1995,Region,8.2,1
+West,x-West,1995,Region,9,1
+South,Alabama,1996,Death Penalty,10.39,1
+West,Alaska,1996,No Death Penalty,7.41,1
+West,Arizona,1996,Death Penalty,8.51,1
+South,Arkansas,1996,Death Penalty,8.73,1
+West,California,1996,Death Penalty,9.15,1
+West,Colorado,1996,Death Penalty,4.71,1
+Northeast,Connecticut,1996,Death Penalty,4.83,1
+South,Delaware,1996,Death Penalty,4.28,1
+South,Florida,1996,Death Penalty,7.48,1
+South,Georgia,1996,Death Penalty,8.57,1
+West,Hawaii,1996,No Death Penalty,3.38,1
+West,Idaho,1996,Death Penalty,3.62,1
+Midwest,Illinois,1996,Death Penalty,9.95,1
+Midwest,Indiana,1996,Death Penalty,7.19,1
+Midwest,Iowa,1996,No Death Penalty,1.86,1
+Midwest,Kansas,1996,Death Penalty,6.61,1
+South,Kentucky,1996,Death Penalty,5.87,1
+South,Louisiana,1996,Death Penalty,17.51,1
+Northeast,Maine,1996,No Death Penalty,2.01,1
+South,Maryland,1996,Death Penalty,11.59,1
+Northeast,Massachusetts,1996,No Death Penalty,2.58,1
+Midwest,Michigan,1996,No Death Penalty,7.53,1
+Midwest,Minnesota,1996,No Death Penalty,3.59,1
+South,Mississippi,1996,Death Penalty,11.08,1
+Midwest,Missouri,1996,Death Penalty,8.08,1
+West,Montana,1996,Death Penalty,3.87,1
+Midwest,Nebraska,1996,Death Penalty,2.91,1
+West,Nevada,1996,Death Penalty,13.72,1
+Northeast,New Hampshire,1996,Death Penalty,1.72,1
+Northeast,New Jersey,1996,Death Penalty,4.23,1
+West,New Mexico,1996,Death Penalty,11.5,1
+Northeast,New York,1996,Death Penalty,7.44,1
+South,North Carolina,1996,Death Penalty,8.45,1
+Midwest,North Dakota,1996,No Death Penalty,2.17,1
+Midwest,Ohio,1996,Death Penalty,4.82,1
+South,Oklahoma,1996,Death Penalty,6.76,1
+West,Oregon,1996,Death Penalty,4.03,1
+Northeast,Pennsylvania,1996,Death Penalty,5.69,1
+Northeast,Rhode Island,1996,No Death Penalty,2.53,1
+South,South Carolina,1996,Death Penalty,8.98,1
+Midwest,South Dakota,1996,Death Penalty,1.23,1
+South,Tennessee,1996,Death Penalty,9.45,1
+South,Texas,1996,Death Penalty,7.72,1
+West,Utah,1996,Death Penalty,3.15,1
+Northeast,Vermont,1996,No Death Penalty,1.87,1
+South,Virginia,1996,Death Penalty,7.49,1
+West,Washington,1996,Death Penalty,4.61,1
+South,West Virginia,1996,No Death Penalty,3.78,1
+Midwest,Wisconsin,1996,No Death Penalty,3.95,1
+West,Wyoming,1996,Death Penalty,3.33,1
+Midwest,x-Midwest,1996,Region,6.4,1
+Northeast,x-Northeast,1996,Region,5.4,1
+South,x-South,1996,Region,9,1
+United States,x-United States,1996,Region,7.4,1
+West,x-West,1996,Region,7.7,1
+South,Alabama,1997,Death Penalty,9.86,1
+West,Alaska,1997,No Death Penalty,8.87,1
+West,Arizona,1997,Death Penalty,8.23,1
+South,Arkansas,1997,Death Penalty,9.91,1
+West,California,1997,Death Penalty,7.99,1
+West,Colorado,1997,Death Penalty,4.03,1
+Northeast,Connecticut,1997,Death Penalty,3.79,1
+South,Delaware,1997,Death Penalty,3.01,1
+South,Florida,1997,Death Penalty,6.91,1
+South,Georgia,1997,Death Penalty,7.52,1
+West,Hawaii,1997,No Death Penalty,3.96,1
+West,Idaho,1997,Death Penalty,3.22,1
+Midwest,Illinois,1997,Death Penalty,9.21,1
+Midwest,Indiana,1997,Death Penalty,7.33,1
+Midwest,Iowa,1997,No Death Penalty,1.82,1
+Midwest,Kansas,1997,Death Penalty,5.78,1
+South,Kentucky,1997,Death Penalty,5.83,1
+South,Louisiana,1997,Death Penalty,15.67,1
+Northeast,Maine,1997,No Death Penalty,2.01,1
+South,Maryland,1997,Death Penalty,9.85,1
+Northeast,Massachusetts,1997,No Death Penalty,1.95,1
+Midwest,Michigan,1997,No Death Penalty,7.77,1
+Midwest,Minnesota,1997,No Death Penalty,2.75,1
+South,Mississippi,1997,Death Penalty,13.11,1
+Midwest,Missouri,1997,Death Penalty,7.89,1
+West,Montana,1997,Death Penalty,4.78,1
+Midwest,Nebraska,1997,Death Penalty,3.02,1
+West,Nevada,1997,Death Penalty,11.15,1
+Northeast,New Hampshire,1997,Death Penalty,1.36,1
+Northeast,New Jersey,1997,Death Penalty,4.18,1
+West,New Mexico,1997,Death Penalty,7.75,1
+Northeast,New York,1997,Death Penalty,6.03,1
+South,North Carolina,1997,Death Penalty,8.27,1
+Midwest,North Dakota,1997,No Death Penalty,0.94,1
+Midwest,Ohio,1997,Death Penalty,4.68,1
+South,Oklahoma,1997,Death Penalty,6.9,1
+West,Oregon,1997,Death Penalty,2.93,1
+Northeast,Pennsylvania,1997,Death Penalty,5.87,1
+Northeast,Rhode Island,1997,No Death Penalty,2.53,1
+South,South Carolina,1997,Death Penalty,8.35,1
+Midwest,South Dakota,1997,Death Penalty,1.36,1
+South,Tennessee,1997,Death Penalty,9.52,1
+South,Texas,1997,Death Penalty,6.83,1
+West,Utah,1997,Death Penalty,2.43,1
+Northeast,Vermont,1997,No Death Penalty,1.53,1
+South,Virginia,1997,Death Penalty,7.25,1
+West,Washington,1997,Death Penalty,4.35,1
+South,West Virginia,1997,No Death Penalty,4.13,1
+Midwest,Wisconsin,1997,No Death Penalty,3.97,1
+West,Wyoming,1997,Death Penalty,3.54,1
+Midwest,x-Midwest,1997,Region,6.1,1
+Northeast,x-Northeast,1997,Region,4.8,1
+South,x-South,1997,Region,8.4,1
+United States,x-United States,1997,Region,6.8,1
+West,x-West,1997,Region,6.8,1
+South,Alabama,1998,Death Penalty,8.13,1
+West,Alaska,1998,No Death Penalty,6.68,1
+West,Arizona,1998,Death Penalty,8.05,1
+South,Arkansas,1998,Death Penalty,7.92,1
+West,California,1998,Death Penalty,6.65,1
+West,Colorado,1998,Death Penalty,4.61,1
+Northeast,Connecticut,1998,Death Penalty,4.12,1
+South,Delaware,1998,Death Penalty,2.82,1
+South,Florida,1998,Death Penalty,6.48,1
+South,Georgia,1998,Death Penalty,8.09,1
+West,Hawaii,1998,No Death Penalty,2.01,1
+West,Idaho,1998,Death Penalty,2.93,1
+Midwest,Illinois,1998,Death Penalty,8.37,1
+Midwest,Indiana,1998,Death Penalty,7.7,1
+Midwest,Iowa,1998,No Death Penalty,1.89,1
+Midwest,Kansas,1998,Death Penalty,6.58,1
+South,Kentucky,1998,Death Penalty,6.02,1
+South,Louisiana,1998,Death Penalty,12.82,1
+Northeast,Maine,1998,No Death Penalty,2.09,1
+South,Maryland,1998,Death Penalty,9.99,1
+Northeast,Massachusetts,1998,No Death Penalty,2.02,1
+Midwest,Michigan,1998,No Death Penalty,7.34,1
+Midwest,Minnesota,1998,No Death Penalty,2.56,1
+South,Mississippi,1998,Death Penalty,11.45,1
+Midwest,Missouri,1998,Death Penalty,7.34,1
+West,Montana,1998,Death Penalty,2.05,1
+Midwest,Nebraska,1998,Death Penalty,3.07,1
+West,Nevada,1998,Death Penalty,9.73,1
+Northeast,New Hampshire,1998,Death Penalty,1.52,1
+Northeast,New Jersey,1998,Death Penalty,4,1
+West,New Mexico,1998,Death Penalty,10.94,1
+Northeast,New York,1998,Death Penalty,5.08,1
+South,North Carolina,1998,Death Penalty,8.11,1
+Midwest,North Dakota,1998,No Death Penalty,1.1,1
+Midwest,Ohio,1998,Death Penalty,3.95,1
+South,Oklahoma,1998,Death Penalty,6.1,1
+West,Oregon,1998,Death Penalty,3.84,1
+Northeast,Pennsylvania,1998,Death Penalty,5.27,1
+Northeast,Rhode Island,1998,No Death Penalty,2.43,1
+South,South Carolina,1998,Death Penalty,7.98,1
+Midwest,South Dakota,1998,Death Penalty,1.36,1
+South,Tennessee,1998,Death Penalty,8.47,1
+South,Texas,1998,Death Penalty,6.81,1
+West,Utah,1998,Death Penalty,3.1,1
+Northeast,Vermont,1998,No Death Penalty,2.2,1
+South,Virginia,1998,Death Penalty,6.21,1
+West,Washington,1998,Death Penalty,3.94,1
+South,West Virginia,1998,No Death Penalty,4.31,1
+Midwest,Wisconsin,1998,No Death Penalty,3.64,1
+West,Wyoming,1998,Death Penalty,4.78,1
+Midwest,x-Midwest,1998,Region,5.8,1
+Northeast,x-Northeast,1998,Region,4.3,1
+South,x-South,1998,Region,7.8,1
+United States,x-United States,1998,Region,6.3,1
+West,x-West,1998,Region,6.1,1
+South,Alabama,1999,Death Penalty,7.89,1
+West,Alaska,1999,No Death Penalty,8.39,1
+West,Arizona,1999,Death Penalty,8.04,1
+South,Arkansas,1999,Death Penalty,5.6,1
+West,California,1999,Death Penalty,6.05,1
+West,Colorado,1999,Death Penalty,4.56,1
+Northeast,Connecticut,1999,Death Penalty,3.26,1
+South,Delaware,1999,Death Penalty,3.18,1
+South,Florida,1999,Death Penalty,5.68,1
+South,Georgia,1999,Death Penalty,7.49,1
+West,Hawaii,1999,No Death Penalty,3.71,1
+West,Idaho,1999,Death Penalty,2,1
+Midwest,Illinois,1999,Death Penalty,7.74,1
+Midwest,Indiana,1999,Death Penalty,6.58,1
+Midwest,Iowa,1999,No Death Penalty,1.5,1
+Midwest,Kansas,1999,Death Penalty,6.03,1
+South,Kentucky,1999,Death Penalty,5.13,1
+South,Louisiana,1999,Death Penalty,10.7,1
+Northeast,Maine,1999,No Death Penalty,2,1
+South,Maryland,1999,Death Penalty,8.99,1
+Northeast,Massachusetts,1999,No Death Penalty,1.98,1
+Midwest,Michigan,1999,No Death Penalty,7.05,1
+Midwest,Minnesota,1999,No Death Penalty,2.81,1
+South,Mississippi,1999,Death Penalty,7.69,1
+Midwest,Missouri,1999,Death Penalty,6.57,1
+West,Montana,1999,Death Penalty,2.49,1
+Midwest,Nebraska,1999,Death Penalty,3.6,1
+West,Nevada,1999,Death Penalty,9.12,1
+Northeast,New Hampshire,1999,Death Penalty,1.5,1
+Northeast,New Jersey,1999,Death Penalty,3.52,1
+West,New Mexico,1999,Death Penalty,9.77,1
+Northeast,New York,1999,Death Penalty,4.96,1
+South,North Carolina,1999,Death Penalty,7.21,1
+Midwest,North Dakota,1999,No Death Penalty,1.58,1
+Midwest,Ohio,1999,Death Penalty,3.53,1
+South,Oklahoma,1999,Death Penalty,6.88,1
+West,Oregon,1999,Death Penalty,2.65,1
+Northeast,Pennsylvania,1999,Death Penalty,4.94,1
+Northeast,Rhode Island,1999,No Death Penalty,3.63,1
+South,South Carolina,1999,Death Penalty,6.64,1
+Midwest,South Dakota,1999,Death Penalty,2.46,1
+South,Tennessee,1999,Death Penalty,7.13,1
+South,Texas,1999,Death Penalty,6.07,1
+West,Utah,1999,Death Penalty,2.07,1
+Northeast,Vermont,1999,No Death Penalty,2.86,1
+South,Virginia,1999,Death Penalty,5.7,1
+West,Washington,1999,Death Penalty,2.97,1
+South,West Virginia,1999,No Death Penalty,4.37,1
+Midwest,Wisconsin,1999,No Death Penalty,3.41,1
+West,Wyoming,1999,Death Penalty,2.29,1
+Midwest,x-Midwest,1999,Region,5.4,1
+Northeast,x-Northeast,1999,Region,4.1,1
+South,x-South,1999,Region,6.9,1
+United States,x-United States,1999,Region,5.7,1
+West,x-West,1999,Region,5.5,1
+South,Alabama,2000,Death Penalty,7.4,1
+West,Alaska,2000,No Death Penalty,4.31,1
+West,Arizona,2000,Death Penalty,7,1
+South,Arkansas,2000,Death Penalty,6.28,1
+West,California,2000,Death Penalty,6.14,1
+West,Colorado,2000,Death Penalty,3.12,1
+Northeast,Connecticut,2000,Death Penalty,2.88,1
+South,Delaware,2000,Death Penalty,3.19,1
+South,Florida,2000,Death Penalty,5.65,1
+South,Georgia,2000,Death Penalty,7.95,1
+West,Hawaii,2000,No Death Penalty,2.89,1
+West,Idaho,2000,Death Penalty,1.24,1
+Midwest,Illinois,2000,Death Penalty,7.23,1
+Midwest,Indiana,2000,Death Penalty,5.79,1
+Midwest,Iowa,2000,No Death Penalty,1.57,1
+Midwest,Kansas,2000,Death Penalty,6.29,1
+South,Kentucky,2000,Death Penalty,4.78,1
+South,Louisiana,2000,Death Penalty,12.53,1
+Northeast,Maine,2000,No Death Penalty,1.18,1
+South,Maryland,2000,Death Penalty,8.12,1
+Northeast,Massachusetts,2000,No Death Penalty,1.97,1
+Midwest,Michigan,2000,No Death Penalty,6.73,1
+Midwest,Minnesota,2000,No Death Penalty,3.07,1
+South,Mississippi,2000,Death Penalty,8.96,1
+Midwest,Missouri,2000,Death Penalty,6.2,1
+West,Montana,2000,Death Penalty,2.22,1
+Midwest,Nebraska,2000,Death Penalty,3.68,1
+West,Nevada,2000,Death Penalty,6.46,1
+Northeast,New Hampshire,2000,Death Penalty,1.78,1
+Northeast,New Jersey,2000,Death Penalty,3.43,1
+West,New Mexico,2000,Death Penalty,7.42,1
+Northeast,New York,2000,Death Penalty,5.02,1
+South,North Carolina,2000,Death Penalty,6.96,1
+Midwest,North Dakota,2000,No Death Penalty,0.62,1
+Midwest,Ohio,2000,Death Penalty,3.68,1
+South,Oklahoma,2000,Death Penalty,5.27,1
+West,Oregon,2000,Death Penalty,2.05,1
+Northeast,Pennsylvania,2000,Death Penalty,4.9,1
+Northeast,Rhode Island,2000,No Death Penalty,4.29,1
+South,South Carolina,2000,Death Penalty,7.25,1
+Midwest,South Dakota,2000,Death Penalty,0.93,1
+South,Tennessee,2000,Death Penalty,7.21,1
+South,Texas,2000,Death Penalty,5.94,1
+West,Utah,2000,Death Penalty,1.93,1
+Northeast,Vermont,2000,No Death Penalty,1.48,1
+South,Virginia,2000,Death Penalty,5.67,1
+West,Washington,2000,Death Penalty,3.33,1
+South,West Virginia,2000,No Death Penalty,2.54,1
+Midwest,Wisconsin,2000,No Death Penalty,3.15,1
+West,Wyoming,2000,Death Penalty,2.43,1
+Midwest,x-Midwest,2000,Region,5.1,1
+Northeast,x-Northeast,2000,Region,4,1
+South,x-South,2000,Region,6.9,1
+United States,x-United States,2000,Region,5.5,1
+West,x-West,2000,Region,5.2,1
+South,Alabama,2001,Death Penalty,8.48,1
+West,Alaska,2001,No Death Penalty,6.16,1
+West,Arizona,2001,Death Penalty,7.54,1
+South,Arkansas,2001,Death Penalty,5.49,1
+West,California,2001,Death Penalty,6.38,1
+West,Colorado,2001,Death Penalty,3.57,1
+Northeast,Connecticut,2001,Death Penalty,3.06,1
+South,Delaware,2001,Death Penalty,2.89,1
+South,Florida,2001,Death Penalty,5.34,1
+South,Georgia,2001,Death Penalty,7.11,1
+West,Hawaii,2001,No Death Penalty,2.61,1
+West,Idaho,2001,Death Penalty,2.27,1
+Midwest,Illinois,2001,Death Penalty,7.84,1
+Midwest,Indiana,2001,Death Penalty,6.74,1
+Midwest,Iowa,2001,No Death Penalty,1.71,1
+Midwest,Kansas,2001,Death Penalty,3.4,1
+South,Kentucky,2001,Death Penalty,4.45,1
+South,Louisiana,2001,Death Penalty,11.21,1
+Northeast,Maine,2001,No Death Penalty,1.48,1
+South,Maryland,2001,Death Penalty,8.28,1
+Northeast,Massachusetts,2001,No Death Penalty,2.23,1
+Midwest,Michigan,2001,No Death Penalty,6.72,1
+Midwest,Minnesota,2001,No Death Penalty,2.39,1
+South,Mississippi,2001,Death Penalty,9.86,1
+Midwest,Missouri,2001,Death Penalty,6.6,1
+West,Montana,2001,Death Penalty,3.76,1
+Midwest,Nebraska,2001,Death Penalty,2.5,1
+West,Nevada,2001,Death Penalty,8.58,1
+Northeast,New Hampshire,2001,Death Penalty,1.35,1
+Northeast,New Jersey,2001,Death Penalty,3.95,1
+West,New Mexico,2001,Death Penalty,5.41,1
+Northeast,New York,2001,Death Penalty,5.03,1
+South,North Carolina,2001,Death Penalty,6.15,1
+Midwest,North Dakota,2001,No Death Penalty,1.1,1
+Midwest,Ohio,2001,Death Penalty,3.97,1
+South,Oklahoma,2001,Death Penalty,5.33,1
+West,Oregon,2001,Death Penalty,2.42,1
+Northeast,Pennsylvania,2001,Death Penalty,5.29,1
+Northeast,Rhode Island,2001,No Death Penalty,3.68,1
+South,South Carolina,2001,Death Penalty,8.12,1
+Midwest,South Dakota,2001,Death Penalty,0.92,1
+South,Tennessee,2001,Death Penalty,7.36,1
+South,Texas,2001,Death Penalty,6.23,1
+West,Utah,2001,Death Penalty,2.94,1
+Northeast,Vermont,2001,No Death Penalty,1.14,1
+South,Virginia,2001,Death Penalty,5.06,1
+West,Washington,2001,Death Penalty,2.99,1
+South,West Virginia,2001,No Death Penalty,2.22,1
+Midwest,Wisconsin,2001,No Death Penalty,3.55,1
+West,Wyoming,2001,Death Penalty,1.82,1
+Midwest,x-Midwest,2001,Region,5.2,1
+Northeast,x-Northeast,2001,Region,4.2,1
+South,x-South,2001,Region,6.7,1
+United States,x-United States,2001,Region,5.6,1
+West,x-West,2001,Region,5.4,1
+South,Alabama,2002,Death Penalty,6.77,1
+West,Alaska,2002,No Death Penalty,5.14,1
+West,Arizona,2002,Death Penalty,7.11,1
+South,Arkansas,2002,Death Penalty,5.25,1
+West,California,2002,Death Penalty,6.84,1
+West,Colorado,2002,Death Penalty,3.98,1
+Northeast,Connecticut,2002,Death Penalty,2.43,1
+South,Delaware,2002,Death Penalty,3.23,1
+South,Florida,2002,Death Penalty,5.46,1
+South,Georgia,2002,Death Penalty,7.09,1
+West,Hawaii,2002,No Death Penalty,1.93,1
+West,Idaho,2002,Death Penalty,2.68,1
+Midwest,Illinois,2002,Death Penalty,7.64,1
+Midwest,Indiana,2002,Death Penalty,5.88,1
+Midwest,Iowa,2002,No Death Penalty,1.5,1
+Midwest,Kansas,2002,Death Penalty,2.88,1
+South,Kentucky,2002,Death Penalty,4.67,1
+South,Louisiana,2002,Death Penalty,13.25,1
+Northeast,Maine,2002,No Death Penalty,1.08,1
+South,Maryland,2002,Death Penalty,9.41,1
+Northeast,Massachusetts,2002,No Death Penalty,2.69,1
+Midwest,Michigan,2002,No Death Penalty,6.75,1
+Midwest,Minnesota,2002,No Death Penalty,2.23,1
+South,Mississippi,2002,Death Penalty,9.21,1
+Midwest,Missouri,2002,Death Penalty,5.84,1
+West,Montana,2002,Death Penalty,1.76,1
+Midwest,Nebraska,2002,Death Penalty,2.78,1
+West,Nevada,2002,Death Penalty,8.35,1
+Northeast,New Hampshire,2002,Death Penalty,0.94,1
+Northeast,New Jersey,2002,Death Penalty,3.95,1
+West,New Mexico,2002,Death Penalty,8.21,1
+Northeast,New York,2002,Death Penalty,4.75,1
+South,North Carolina,2002,Death Penalty,6.6,1
+Midwest,North Dakota,2002,No Death Penalty,0.79,1
+Midwest,Ohio,2002,Death Penalty,4.61,1
+South,Oklahoma,2002,Death Penalty,4.67,1
+West,Oregon,2002,Death Penalty,2.05,1
+Northeast,Pennsylvania,2002,Death Penalty,5.06,1
+Northeast,Rhode Island,2002,No Death Penalty,3.84,1
+South,South Carolina,2002,Death Penalty,7.26,1
+Midwest,South Dakota,2002,Death Penalty,1.45,1
+South,Tennessee,2002,Death Penalty,7.25,1
+South,Texas,2002,Death Penalty,5.99,1
+West,Utah,2002,Death Penalty,2.03,1
+Northeast,Vermont,2002,No Death Penalty,2.11,1
+South,Virginia,2002,Death Penalty,5.32,1
+West,Washington,2002,Death Penalty,3.03,1
+South,West Virginia,2002,No Death Penalty,3.16,1
+Midwest,Wisconsin,2002,No Death Penalty,2.83,1
+West,Wyoming,2002,Death Penalty,3.01,1
+Midwest,x-Midwest,2002,Region,5.1,1
+Northeast,x-Northeast,2002,Region,4.1,1
+South,x-South,2002,Region,6.8,1
+United States,x-United States,2002,Region,5.6,1
+West,x-West,2002,Region,5.7,1
+South,Alabama,2003,Death Penalty,6.64,1
+West,Alaska,2003,No Death Penalty,6.02,1
+West,Arizona,2003,Death Penalty,7.9,1
+South,Arkansas,2003,Death Penalty,6.6,1
+West,California,2003,Death Penalty,6.79,1
+West,Colorado,2003,Death Penalty,4.07,1
+Northeast,Connecticut,2003,Death Penalty,3.21,1
+South,Delaware,2003,Death Penalty,2.57,1
+South,Florida,2003,Death Penalty,5.44,1
+South,Georgia,2003,Death Penalty,7.57,1
+West,Hawaii,2003,No Death Penalty,1.76,1
+West,Idaho,2003,Death Penalty,1.9,1
+Midwest,Illinois,2003,Death Penalty,7.08,1
+Midwest,Indiana,2003,Death Penalty,5.45,1
+Midwest,Iowa,2003,No Death Penalty,1.7,1
+Midwest,Kansas,2003,Death Penalty,4.59,1
+South,Kentucky,2003,Death Penalty,4.4,1
+South,Louisiana,2003,Death Penalty,13,1
+Northeast,Maine,2003,No Death Penalty,1.22,1
+South,Maryland,2003,Death Penalty,9.52,1
+Northeast,Massachusetts,2003,No Death Penalty,2.18,1
+Midwest,Michigan,2003,No Death Penalty,6.07,1
+Midwest,Minnesota,2003,No Death Penalty,2.51,1
+South,Mississippi,2003,Death Penalty,9.26,1
+Midwest,Missouri,2003,Death Penalty,5.05,1
+West,Montana,2003,Death Penalty,3.27,1
+Midwest,Nebraska,2003,Death Penalty,3.22,1
+West,Nevada,2003,Death Penalty,8.79,1
+Northeast,New Hampshire,2003,Death Penalty,1.32,1
+Northeast,New Jersey,2003,Death Penalty,4.7,1
+West,New Mexico,2003,Death Penalty,6.17,1
+Northeast,New York,2003,Death Penalty,4.86,1
+South,North Carolina,2003,Death Penalty,6.01,1
+Midwest,North Dakota,2003,No Death Penalty,1.42,1
+Midwest,Ohio,2003,Death Penalty,4.6,1
+South,Oklahoma,2003,Death Penalty,5.87,1
+West,Oregon,2003,Death Penalty,1.91,1
+Northeast,Pennsylvania,2003,Death Penalty,5.23,1
+Northeast,Rhode Island,2003,No Death Penalty,2.32,1
+South,South Carolina,2003,Death Penalty,7.3,1
+Midwest,South Dakota,2003,Death Penalty,1.31,1
+South,Tennessee,2003,Death Penalty,6.77,1
+South,Texas,2003,Death Penalty,6.43,1
+West,Utah,2003,Death Penalty,2.55,1
+Northeast,Vermont,2003,No Death Penalty,2.42,1
+South,Virginia,2003,Death Penalty,5.65,1
+West,Washington,2003,Death Penalty,2.97,1
+South,West Virginia,2003,No Death Penalty,4.03,1
+Midwest,Wisconsin,2003,No Death Penalty,3.34,1
+West,Wyoming,2003,Death Penalty,2.79,1
+Midwest,x-Midwest,2003,Region,4.9,1
+Northeast,x-Northeast,2003,Region,4.2,1
+South,x-South,2003,Region,6.9,1
+United States,x-United States,2003,Region,5.7,1
+West,x-West,2003,Region,5.7,1
+South,Alabama,2004,Death Penalty,5.61,1
+West,Alaska,2004,No Death Penalty,5.63,1
+West,Arizona,2004,Death Penalty,7.21,1
+South,Arkansas,2004,Death Penalty,6.4,1
+West,California,2004,Death Penalty,6.67,1
+West,Colorado,2004,Death Penalty,4.37,1
+Northeast,Connecticut,2004,Death Penalty,2.86,1
+South,Delaware,2004,Death Penalty,3.37,1
+South,Florida,2004,Death Penalty,5.44,1
+South,Georgia,2004,Death Penalty,6.87,1
+West,Hawaii,2004,No Death Penalty,2.61,1
+West,Idaho,2004,Death Penalty,2.22,1
+Midwest,Illinois,2004,Death Penalty,6.14,1
+Midwest,Indiana,2004,Death Penalty,5.08,1
+Midwest,Iowa,2004,No Death Penalty,1.49,1
+Midwest,Kansas,2004,Death Penalty,4.46,1
+South,Kentucky,2004,Death Penalty,5.7,1
+South,Louisiana,2004,Death Penalty,12.74,1
+Northeast,Maine,2004,No Death Penalty,1.37,1
+South,Maryland,2004,Death Penalty,9.37,1
+Northeast,Massachusetts,2004,No Death Penalty,2.67,1
+Midwest,Michigan,2004,No Death Penalty,6.36,1
+Midwest,Minnesota,2004,No Death Penalty,2.22,1
+South,Mississippi,2004,Death Penalty,7.83,1
+Midwest,Missouri,2004,Death Penalty,6.15,1
+West,Montana,2004,Death Penalty,3.24,1
+Midwest,Nebraska,2004,Death Penalty,2.29,1
+West,Nevada,2004,Death Penalty,7.37,1
+Northeast,New Hampshire,2004,Death Penalty,1.31,1
+Northeast,New Jersey,2004,Death Penalty,4.51,1
+West,New Mexico,2004,Death Penalty,8.88,1
+Northeast,New York,2004,No Death Penalty,4.61,1
+South,North Carolina,2004,Death Penalty,6.23,1
+Midwest,North Dakota,2004,No Death Penalty,1.26,1
+Midwest,Ohio,2004,Death Penalty,4.42,1
+South,Oklahoma,2004,Death Penalty,5.28,1
+West,Oregon,2004,Death Penalty,2.51,1
+Northeast,Pennsylvania,2004,Death Penalty,5.24,1
+Northeast,Rhode Island,2004,No Death Penalty,2.41,1
+South,South Carolina,2004,Death Penalty,6.81,1
+Midwest,South Dakota,2004,Death Penalty,2.21,1
+South,Tennessee,2004,Death Penalty,6.06,1
+South,Texas,2004,Death Penalty,6.07,1
+West,Utah,2004,Death Penalty,1.9,1
+Northeast,Vermont,2004,No Death Penalty,2.58,1
+South,Virginia,2004,Death Penalty,5.21,1
+West,Washington,2004,Death Penalty,3.06,1
+Midwest,x-Midwest,2004,Region,4.7,1
+Midwest,x-Midwest,2005,Region,5,1
+Midwest,x-Midwest,2006,Region,5.1,1
+Midwest,x-Midwest,2007,Region,4.9,1
+Midwest,x-Midwest,2008,Region,4.9,1
+Midwest,x-Midwest,2009,Region,4.6,1
+Midwest,x-Midwest,2010,Region,4.4,1
+Midwest,x-Midwest,2011,Region,4.5,1
+Midwest,x-Midwest,2012,Region,4.7,1
+Midwest,x-Midwest,2013,Region,4.6,1
+Midwest,x-Midwest,2014,Region,4.3,1
+Midwest,x-Midwest,2015,Region,5,1
+Midwest,x-Midwest,2016,Region,5.8,1
+Midwest,x-Midwest,2017,Region,5.754442728,1
+Midwest,x-Midwest,2018,Region,5.302137732,1
+Midwest,x-Midwest,2019,Region,4.996414114,1
+Midwest,x-Midwest,2020,Region,7,1
+Northeast,x-Northeast,2004,Region,4.2,1
+Northeast,x-Northeast,2005,Region,4.4,1
+Northeast,x-Northeast,2006,Region,4.6,1
+Northeast,x-Northeast,2007,Region,4.2,1
+Northeast,x-Northeast,2008,Region,4.2,1
+Northeast,x-Northeast,2009,Region,3.8,1
+Northeast,x-Northeast,2010,Region,4.2,1
+Northeast,x-Northeast,2011,Region,3.9,1
+Northeast,x-Northeast,2012,Region,3.8,1
+Northeast,x-Northeast,2013,Region,3.5,1
+Northeast,x-Northeast,2014,Region,3.3,1
+Northeast,x-Northeast,2015,Region,3.5,1
+Northeast,x-Northeast,2016,Region,3.5,1
+Northeast,x-Northeast,2017,Region,3.507947436,1
+Northeast,x-Northeast,2018,Region,3.436424891,1
+Northeast,x-Northeast,2019,Region,3.276006026,1
+Northeast,x-Northeast,2020,Region,4.5,1
+South,x-South,2004,Region,6.6,1
+South,x-South,2005,Region,6.6,1
+South,x-South,2006,Region,6.8,1
+South,x-South,2007,Region,7.1,1
+South,x-South,2008,Region,6.6,1
+South,x-South,2009,Region,6.1,1
+South,x-South,2010,Region,5.6,1
+South,x-South,2011,Region,5.5,1
+South,x-South,2012,Region,5.5,1
+South,x-South,2013,Region,5.3,1
+South,x-South,2014,Region,5.5,1
+South,x-South,2015,Region,6,1
+South,x-South,2016,Region,6.6,1
+South,x-South,2017,Region,6.406230552,1
+South,x-South,2018,Region,6.085762628,1
+South,x-South,2019,Region,6.372011032,1
+South,x-South,2020,Region,8,1
+United States,x-United States,2004,Region,5.5,1
+United States,x-United States,2005,Region,5.6,1
+United States,x-United States,2006,Region,5.8,1
+United States,x-United States,2007,Region,5.7,1
+United States,x-United States,2008,Region,5.4,1
+United States,x-United States,2009,Region,5,1
+United States,x-United States,2010,Region,4.8,1
+United States,x-United States,2011,Region,4.7,1
+United States,x-United States,2012,Region,4.7,1
+United States,x-United States,2013,Region,4.5,1
+United States,x-United States,2014,Region,4.5,1
+United States,x-United States,2015,Region,4.9,1
+United States,x-United States,2016,Region,5.4,1
+United States,x-United States,2017,Region,5.318823044,1
+United States,x-United States,2018,Region,5.012129313,1
+United States,x-United States,2019,Region,5.003967788,1
+United States,x-United States,2020,Region,6.5,1
+West,x-West,2004,Region,5.7,1
+West,x-West,2005,Region,5.8,1
+West,x-West,2006,Region,5.8,1
+West,x-West,2007,Region,5.4,1
+West,x-West,2008,Region,5,1
+West,x-West,2009,Region,4.6,1
+West,x-West,2010,Region,4.2,1
+West,x-West,2011,Region,4.2,1
+West,x-West,2012,Region,4.2,1
+West,x-West,2013,Region,4,1
+West,x-West,2014,Region,3.9,1
+West,x-West,2015,Region,4.2,1
+West,x-West,2016,Region,4.5,1
+West,x-West,2017,Region,4.509830097,1
+West,x-West,2018,Region,4.174224338,1
+West,x-West,2019,Region,4.052470598,1
+West,x-West,2020,Region,5.2,1
+Midwest,Illinois,2005,Death Penalty,6.03,1
+Midwest,Indiana,2005,Death Penalty,5.68,1
+Midwest,Kansas,2005,Death Penalty,3.68,1
+Midwest,Missouri,2005,Death Penalty,6.93,1
+Midwest,Nebraska,2005,Death Penalty,2.5,1
+Midwest,Ohio,2005,Death Penalty,5.14,1
+Midwest,South Dakota,2005,Death Penalty,2.32,1
+Midwest,Illinois,2006,Death Penalty,6.08,1
+Midwest,Indiana,2006,Death Penalty,5.72,1
+Midwest,Kansas,2006,Death Penalty,4.52,1
+Midwest,Missouri,2006,Death Penalty,6.32,1
+Midwest,Nebraska,2006,Death Penalty,2.88,1
+Midwest,Ohio,2006,Death Penalty,4.88,1
+Midwest,South Dakota,2006,Death Penalty,3.84,1
+Midwest,Illinois,2007,Death Penalty,5.85,1
+Midwest,Indiana,2007,Death Penalty,5.52,1
+Midwest,Kansas,2007,Death Penalty,3.82,1
+Midwest,Missouri,2007,Death Penalty,6.24,1
+Midwest,Nebraska,2007,Death Penalty,4,1
+Midwest,Ohio,2007,Death Penalty,4.61,1
+Midwest,South Dakota,2007,Death Penalty,3.89,1
+Midwest,Illinois,2008,Death Penalty,6.12,1
+Midwest,Indiana,2008,Death Penalty,5.05,1
+Midwest,Kansas,2008,Death Penalty,4.03,1
+Midwest,Missouri,2008,Death Penalty,7.71,1
+Midwest,Nebraska,2008,Death Penalty,3.87,1
+Midwest,Ohio,2008,Death Penalty,4.76,1
+Midwest,South Dakota,2008,Death Penalty,4.6,1
+Midwest,Illinois,2009,Death Penalty,5.99,1
+Midwest,Indiana,2009,Death Penalty,4.86,1
+Midwest,Kansas,2009,Death Penalty,4.43,1
+Midwest,Missouri,2009,Death Penalty,6.46,1
+Midwest,Nebraska,2009,Death Penalty,2.28,1
+Midwest,Ohio,2009,Death Penalty,4.57,1
+Midwest,South Dakota,2009,Death Penalty,3.69,1
+Midwest,Illinois,2010,Death Penalty,5.48,1
+Midwest,Indiana,2010,Death Penalty,4.13,1
+Midwest,Kansas,2010,Death Penalty,3.39,1
+Midwest,Missouri,2010,Death Penalty,7.01,1
+Midwest,Nebraska,2010,Death Penalty,2.95,1
+Midwest,Ohio,2010,Death Penalty,4.15,1
+Midwest,South Dakota,2010,Death Penalty,2.82,1
+Midwest,Indiana,2011,Death Penalty,4.7,1
+Midwest,Kansas,2011,Death Penalty,3.87,1
+Midwest,Missouri,2011,Death Penalty,6.09,1
+Midwest,Nebraska,2011,Death Penalty,3.69,1
+Midwest,Ohio,2011,Death Penalty,4.33,1
+Midwest,South Dakota,2011,Death Penalty,2.43,1
+Midwest,Indiana,2012,Death Penalty,4.7,1
+Midwest,Kansas,2012,Death Penalty,2.95,1
+Midwest,Missouri,2012,Death Penalty,6.47,1
+Midwest,Nebraska,2012,Death Penalty,2.8,1
+Midwest,Ohio,2012,Death Penalty,4.14,1
+Midwest,South Dakota,2012,Death Penalty,2.76,1
+Midwest,Indiana,2013,Death Penalty,5.43,1
+Midwest,Kansas,2013,Death Penalty,4.04,1
+Midwest,Missouri,2013,Death Penalty,6.1,1
+Midwest,Nebraska,2013,Death Penalty,3,1
+Midwest,Ohio,2013,Death Penalty,4.13,1
+Midwest,South Dakota,2013,Death Penalty,2.13,1
+Midwest,Indiana,2014,Death Penalty,5,1
+Midwest,Kansas,2014,Death Penalty,3.13,1
+Midwest,Missouri,2014,Death Penalty,6.65,1
+Midwest,Nebraska,2014,Death Penalty,2.87,1
+Midwest,Ohio,2014,Death Penalty,4,1
+Midwest,South Dakota,2014,Death Penalty,2.34,1
+Midwest,Indiana,2015,Death Penalty,5.6,1
+Midwest,Kansas,2015,Death Penalty,4.33,1
+Midwest,Missouri,2015,Death Penalty,8.28,1
+Midwest,Nebraska,2015,Death Penalty,3.27,1
+Midwest,Ohio,2015,Death Penalty,4.5,1
+Midwest,South Dakota,2015,Death Penalty,3.85,1
+Midwest,Indiana,2016,Death Penalty,6.5,1
+Midwest,Kansas,2016,Death Penalty,4.54,1
+Midwest,Missouri,2016,Death Penalty,8.83,1
+Midwest,Nebraska,2016,Death Penalty,2.57,1
+Midwest,Ohio,2016,Death Penalty,5.88,1
+Midwest,South Dakota,2016,Death Penalty,3.25,1
+Midwest,Indiana,2017,Death Penalty,6.201124851,1
+Midwest,Kansas,2017,Death Penalty,4.603720975,1
+Midwest,Missouri,2017,Death Penalty,9.805828231,1
+Midwest,Nebraska,2017,Death Penalty,2.190266352,1
+Midwest,Ohio,2017,Death Penalty,6.352810398,1
+Midwest,South Dakota,2017,Death Penalty,3.091770623,1
+Midwest,Indiana,2018,Death Penalty,6.243001826,1
+Midwest,Kansas,2018,Death Penalty,4.190482864,1
+Midwest,Missouri,2018,Death Penalty,9.784986759,1
+Midwest,Nebraska,2018,Death Penalty,2.284985464,1
+Midwest,Ohio,2018,Death Penalty,5.104338765,1
+Midwest,South Dakota,2018,Death Penalty,1.365656915,1
+Midwest,Indiana,2019,Death Penalty,5.599936663,1
+Midwest,Kansas,2019,Death Penalty,3.604142911,1
+Midwest,Missouri,2019,Death Penalty,9.254691053,1
+Midwest,Nebraska,2019,Death Penalty,2.326293109,1
+Midwest,Ohio,2019,Death Penalty,4.602578471,1
+Midwest,South Dakota,2019,Death Penalty,1.921644385,1
+Midwest,Indiana,2020,Death Penalty,7.5,1
+Midwest,Kansas,2020,Death Penalty,3.4,1
+Midwest,Missouri,2020,Death Penalty,11.8,1
+Midwest,Nebraska,2020,Death Penalty,3.6,1
+Midwest,Ohio,2020,Death Penalty,7,1
+Midwest,South Dakota,2020,Death Penalty,4.5,1
+Northeast,Connecticut,2005,Death Penalty,3,1
+Northeast,New Hampshire,2005,Death Penalty,1.45,1
+Northeast,New Jersey,2005,Death Penalty,4.79,1
+Northeast,Pennsylvania,2005,Death Penalty,6.09,1
+Northeast,Connecticut,2006,Death Penalty,3.91,1
+Northeast,New Hampshire,2006,Death Penalty,0.99,1
+Northeast,New Jersey,2006,Death Penalty,4.89,1
+Northeast,Pennsylvania,2006,Death Penalty,5.96,1
+Northeast,Connecticut,2007,Death Penalty,3.23,1
+Northeast,New Hampshire,2007,Death Penalty,0.91,1
+Northeast,Pennsylvania,2007,Death Penalty,5.83,1
+Northeast,Connecticut,2008,Death Penalty,3.77,1
+Northeast,New Hampshire,2008,Death Penalty,1.06,1
+Northeast,Pennsylvania,2008,Death Penalty,5.66,1
+Northeast,Connecticut,2009,Death Penalty,3.01,1
+Northeast,New Hampshire,2009,Death Penalty,0.83,1
+Northeast,Pennsylvania,2009,Death Penalty,5.27,1
+Northeast,Connecticut,2010,Death Penalty,3.72,1
+Northeast,New Hampshire,2010,Death Penalty,0.99,1
+Northeast,Pennsylvania,2010,Death Penalty,5.13,1
+Northeast,Connecticut,2011,Death Penalty,3.6,1
+Northeast,New Hampshire,2011,Death Penalty,1.21,1
+Northeast,Pennsylvania,2011,Death Penalty,5.01,1
+Northeast,New Hampshire,2012,Death Penalty,1.13,1
+Northeast,Pennsylvania,2012,Death Penalty,5.54,1
+Northeast,New Hampshire,2013,Death Penalty,1.59,1
+Northeast,Pennsylvania,2013,Death Penalty,4.78,1
+Northeast,New Hampshire,2014,Death Penalty,0.9,1
+Northeast,Pennsylvania,2014,Death Penalty,4.8,1
+Northeast,New Hampshire,2015,Death Penalty,1.13,1
+Northeast,Pennsylvania,2015,Death Penalty,5.2,1
+Northeast,New Hampshire,2016,Death Penalty,1.42,1
+Northeast,Pennsylvania,2016,Death Penalty,5.27,1
+Northeast,New Hampshire,2017,Death Penalty,0.963129192,1
+Northeast,Pennsylvania,2017,Death Penalty,5.801204602,1
+Northeast,New Hampshire,2018,Death Penalty,1.551573184,1
+Northeast,Pennsylvania,2018,Death Penalty,6.124558840,1
+Northeast,New Hampshire,2019,Death Penalty,2.426986323,1
+Northeast,Pennsylvania,2019,Death Penalty,5.225750467,1
+South,Alabama,2005,Death Penalty,8.22,1
+South,Arkansas,2005,Death Penalty,6.81,1
+South,Delaware,2005,Death Penalty,4.4,1
+South,Florida,2005,Death Penalty,4.97,1
+South,Georgia,2005,Death Penalty,6.18,1
+South,Kentucky,2005,Death Penalty,4.55,1
+South,Louisiana,2005,Death Penalty,9.98,1
+South,Maryland,2005,Death Penalty,9.88,1
+South,Mississippi,2005,Death Penalty,7.36,1
+South,North Carolina,2005,Death Penalty,6.75,1
+South,Oklahoma,2005,Death Penalty,5.28,1
+South,South Carolina,2005,Death Penalty,7.39,1
+South,Tennessee,2005,Death Penalty,7.24,1
+South,Texas,2005,Death Penalty,6.14,1
+South,Virginia,2005,Death Penalty,6.05,1
+South,Alabama,2006,Death Penalty,8.31,1
+South,Arkansas,2006,Death Penalty,7.29,1
+South,Delaware,2006,Death Penalty,4.92,1
+South,Florida,2006,Death Penalty,6.24,1
+South,Georgia,2006,Death Penalty,6.46,1
+South,Kentucky,2006,Death Penalty,4.11,1
+South,Louisiana,2006,Death Penalty,12.94,1
+South,Maryland,2006,Death Penalty,9.72,1
+South,Mississippi,2006,Death Penalty,7.94,1
+South,North Carolina,2006,Death Penalty,6.09,1
+South,Oklahoma,2006,Death Penalty,5.87,1
+South,South Carolina,2006,Death Penalty,8.38,1
+South,Tennessee,2006,Death Penalty,6.94,1
+South,Texas,2006,Death Penalty,5.9,1
+South,Virginia,2006,Death Penalty,5.27,1
+South,Alabama,2007,Death Penalty,8.9,1
+South,Arkansas,2007,Death Penalty,6.98,1
+South,Delaware,2007,Death Penalty,4.51,1
+South,Florida,2007,Death Penalty,6.59,1
+South,Georgia,2007,Death Penalty,7.54,1
+South,Kentucky,2007,Death Penalty,4.86,1
+South,Louisiana,2007,Death Penalty,14.56,1
+South,Maryland,2007,Death Penalty,9.86,1
+South,Mississippi,2007,Death Penalty,6.92,1
+South,North Carolina,2007,Death Penalty,6.45,1
+South,Oklahoma,2007,Death Penalty,6.19,1
+South,South Carolina,2007,Death Penalty,8.26,1
+South,Tennessee,2007,Death Penalty,6.58,1
+South,Texas,2007,Death Penalty,5.94,1
+South,Virginia,2007,Death Penalty,5.38,1
+South,Alabama,2008,Death Penalty,7.53,1
+South,Arkansas,2008,Death Penalty,5.78,1
+South,Delaware,2008,Death Penalty,6.53,1
+South,Florida,2008,Death Penalty,6.37,1
+South,Georgia,2008,Death Penalty,6.61,1
+South,Kentucky,2008,Death Penalty,4.71,1
+South,Louisiana,2008,Death Penalty,12.33,1
+South,Maryland,2008,Death Penalty,8.75,1
+South,Mississippi,2008,Death Penalty,8.03,1
+South,North Carolina,2008,Death Penalty,6.5,1
+South,Oklahoma,2008,Death Penalty,5.9,1
+South,South Carolina,2008,Death Penalty,6.85,1
+South,Tennessee,2008,Death Penalty,6.63,1
+South,Texas,2008,Death Penalty,5.63,1
+South,Virginia,2008,Death Penalty,4.76,1
+South,Alabama,2009,Death Penalty,6.84,1
+South,Arkansas,2009,Death Penalty,6.19,1
+South,Delaware,2009,Death Penalty,4.63,1
+South,Florida,2009,Death Penalty,5.49,1
+South,Georgia,2009,Death Penalty,5.76,1
+South,Kentucky,2009,Death Penalty,4.27,1
+South,Louisiana,2009,Death Penalty,11.78,1
+South,Maryland,2009,Death Penalty,7.72,1
+South,Mississippi,2009,Death Penalty,6.57,1
+South,North Carolina,2009,Death Penalty,5.21,1
+South,Oklahoma,2009,Death Penalty,6.35,1
+South,South Carolina,2009,Death Penalty,6.69,1
+South,Tennessee,2009,Death Penalty,7.43,1
+South,Texas,2009,Death Penalty,5.37,1
+South,Virginia,2009,Death Penalty,4.69,1
+South,Alabama,2010,Death Penalty,5.75,1
+South,Arkansas,2010,Death Penalty,4.59,1
+South,Delaware,2010,Death Penalty,5.67,1
+South,Florida,2010,Death Penalty,5.24,1
+South,Georgia,2010,Death Penalty,5.71,1
+South,Kentucky,2010,Death Penalty,4.32,1
+South,Louisiana,2010,Death Penalty,11,1
+South,Maryland,2010,Death Penalty,7.36,1
+South,Mississippi,2010,Death Penalty,6.87,1
+South,North Carolina,2010,Death Penalty,4.96,1
+South,Oklahoma,2010,Death Penalty,5.19,1
+South,South Carolina,2010,Death Penalty,5.71,1
+South,Tennessee,2010,Death Penalty,5.65,1
+South,Texas,2010,Death Penalty,4.95,1
+South,Virginia,2010,Death Penalty,4.69,1
+South,Alabama,2011,Death Penalty,6.22,1
+South,Arkansas,2011,Death Penalty,5.44,1
+South,Delaware,2011,Death Penalty,5.29,1
+South,Florida,2011,Death Penalty,5.16,1
+South,Georgia,2011,Death Penalty,5.59,1
+South,Kentucky,2011,Death Penalty,3.46,1
+South,Louisiana,2011,Death Penalty,11.06,1
+South,Maryland,2011,Death Penalty,6.83,1
+South,Mississippi,2011,Death Penalty,7.79,1
+South,North Carolina,2011,Death Penalty,5.16,1
+South,Oklahoma,2011,Death Penalty,5.6,1
+South,South Carolina,2011,Death Penalty,6.85,1
+South,Tennessee,2011,Death Penalty,5.94,1
+South,Texas,2011,Death Penalty,4.41,1
+South,Virginia,2011,Death Penalty,3.75,1
+South,Alabama,2012,Death Penalty,7.1,1
+South,Arkansas,2012,Death Penalty,5.9,1
+South,Delaware,2012,Death Penalty,6.11,1
+South,Florida,2012,Death Penalty,5.22,1
+South,Georgia,2012,Death Penalty,5.88,1
+South,Kentucky,2012,Death Penalty,4.59,1
+South,Louisiana,2012,Death Penalty,10.63,1
+South,Maryland,2012,Death Penalty,6.34,1
+South,Mississippi,2012,Death Penalty,7.13,1
+South,North Carolina,2012,Death Penalty,4.91,1
+South,Oklahoma,2012,Death Penalty,5.77,1
+South,South Carolina,2012,Death Penalty,7.03,1
+South,Tennessee,2012,Death Penalty,6.2,1
+South,Texas,2012,Death Penalty,4.41,1
+South,Virginia,2012,Death Penalty,3.93,1
+South,Alabama,2013,Death Penalty,7.16,1
+South,Arkansas,2013,Death Penalty,5.34,1
+South,Delaware,2013,Death Penalty,4.43,1
+South,Florida,2013,Death Penalty,4.96,1
+South,Georgia,2013,Death Penalty,5.63,1
+South,Kentucky,2013,Death Penalty,3.91,1
+South,Louisiana,2013,Death Penalty,10.67,1
+South,Mississippi,2013,Death Penalty,7.25,1
+South,North Carolina,2013,Death Penalty,4.7,1
+South,Oklahoma,2013,Death Penalty,5.14,1
+South,South Carolina,2013,Death Penalty,6.39,1
+South,Tennessee,2013,Death Penalty,5.16,1
+South,Texas,2013,Death Penalty,4.3,1
+South,Virginia,2013,Death Penalty,3.87,1
+South,Alabama,2014,Death Penalty,5.69,1
+South,Arkansas,2014,Death Penalty,5.56,1
+South,Delaware,2014,Death Penalty,5.77,1
+South,Florida,2014,Death Penalty,5.78,1
+South,Georgia,2014,Death Penalty,5.74,1
+South,Kentucky,2014,Death Penalty,3.63,1
+South,Louisiana,2014,Death Penalty,10.26,1
+South,Mississippi,2014,Death Penalty,8.62,1
+South,North Carolina,2014,Death Penalty,5.13,1
+South,Oklahoma,2014,Death Penalty,4.51,1
+South,South Carolina,2014,Death Penalty,6.44,1
+South,Tennessee,2014,Death Penalty,5.66,1
+South,Texas,2014,Death Penalty,4.39,1
+South,Virginia,2014,Death Penalty,4.06,1
+South,Alabama,2015,Death Penalty,7.17,1
+South,Arkansas,2015,Death Penalty,6.35,1
+South,Delaware,2015,Death Penalty,6.57,1
+South,Florida,2015,Death Penalty,5.14,1
+South,Georgia,2015,Death Penalty,6.1,1
+South,Kentucky,2015,Death Penalty,4.95,1
+South,Louisiana,2015,Death Penalty,10.54,1
+South,Mississippi,2015,Death Penalty,8.46,1
+South,North Carolina,2015,Death Penalty,5.15,1
+South,Oklahoma,2015,Death Penalty,6.14,1
+South,South Carolina,2015,Death Penalty,8.31,1
+South,Tennessee,2015,Death Penalty,6.34,1
+South,Texas,2015,Death Penalty,4.8,1
+South,Virginia,2015,Death Penalty,4.66,1
+South,Alabama,2016,Death Penalty,8.37,1
+South,Arkansas,2016,Death Penalty,7.26,1
+South,Florida,2016,Death Penalty,5.38,1
+South,Georgia,2016,Death Penalty,6.61,1
+South,Kentucky,2016,Death Penalty,5.97,1
+South,Louisiana,2016,Death Penalty,11.84,1
+South,Mississippi,2016,Death Penalty,7.94,1
+South,North Carolina,2016,Death Penalty,6.68,1
+South,Oklahoma,2016,Death Penalty,6.3,1
+South,South Carolina,2016,Death Penalty,7.22,1
+South,Tennessee,2016,Death Penalty,7.44,1
+South,Texas,2016,Death Penalty,5.3,1
+South,Virginia,2016,Death Penalty,5.73,1
+South,Alabama,2017,Death Penalty,8.594660234,1
+South,Arkansas,2017,Death Penalty,8.291716575,1
+South,Florida,2017,Death Penalty,5.038897236,1
+South,Georgia,2017,Death Penalty,6.539867503,1
+South,Kentucky,2017,Death Penalty,5.949876445,1
+South,Louisiana,2017,Death Penalty,12.33188705,1
+South,Mississippi,2017,Death Penalty,6.355231342,1
+South,North Carolina,2017,Death Penalty,6.056003427,1
+South,Oklahoma,2017,Death Penalty,6.179055291,1
+South,South Carolina,2017,Death Penalty,7.567883416,1
+South,Tennessee,2017,Death Penalty,8.019325083,1
+South,Texas,2017,Death Penalty,4.960682268,1
+South,Virginia,2017,Death Penalty,5.5521383,1
+South,Alabama,2018,Death Penalty,7.835722342,1
+South,Arkansas,2018,Death Penalty,7.376069572,1
+South,Florida,2018,Death Penalty,5.210805318,1
+South,Georgia,2018,Death Penalty,6.155379473,1
+South,Kentucky,2018,Death Penalty,5.603932436,1
+South,Louisiana,2018,Death Penalty,11.438529173,1
+South,Mississippi,2018,Death Penalty,7.178750897,1
+South,North Carolina,2018,Death Penalty,5.529004880,1
+South,Oklahoma,2018,Death Penalty,5.456527339,1
+South,South Carolina,2018,Death Penalty,8.083937629,1
+South,Tennessee,2018,Death Penalty,7.501885439,1
+South,Texas,2018,Death Penalty,4.635214229,1
+South,Virginia,2018,Death Penalty,4.905140234,1
+South,Alabama,2019,Death Penalty,7.301376554,1
+South,Arkansas,2019,Death Penalty,8.019076123,1
+South,Florida,2019,Death Penalty,5.224014057,1
+South,Georgia,2019,Death Penalty,6.159686771,1
+South,Kentucky,2019,Death Penalty,4.946646722,1
+South,Louisiana,2019,Death Penalty,11.701959691,1
+South,Mississippi,2019,Death Penalty,11.155355461,1
+South,North Carolina,2019,Death Penalty,6.025886139,1
+South,Oklahoma,2019,Death Penalty,6.722313608,1
+South,South Carolina,2019,Death Penalty,9.011959103,1
+South,Tennessee,2019,Death Penalty,7.292243542,1
+South,Texas,2019,Death Penalty,4.859310879,1
+South,Virginia,2019,Death Penalty,4.990909164,1
+South,Alabama,2020,Death Penalty,9.6,1
+South,Arkansas,2020,Death Penalty,10.6,1
+South,Florida,2020,Death Penalty,5.9,1
+South,Georgia,2020,Death Penalty,8.8,1
+South,Kentucky,2020,Death Penalty,7.2,1
+South,Louisiana,2020,Death Penalty,15.8,1
+South,Mississippi,2020,Death Penalty,10.6,1
+South,North Carolina,2020,Death Penalty,8,1
+South,Oklahoma,2020,Death Penalty,7.4,1
+South,South Carolina,2020,Death Penalty,10.5,1
+South,Tennessee,2020,Death Penalty,9.6,1
+South,Texas,2020,Death Penalty,6.6,1
+South,Virginia,2020,Death Penalty,6.1,1
+West,Wyoming,2004,Death Penalty,2.17,1
+West,Arizona,2005,Death Penalty,7.48,1
+West,California,2005,Death Penalty,6.92,1
+West,Colorado,2005,Death Penalty,3.71,1
+West,Idaho,2005,Death Penalty,2.45,1
+West,Montana,2005,Death Penalty,1.93,1
+West,Nevada,2005,Death Penalty,8.54,1
+West,New Mexico,2005,Death Penalty,7.48,1
+West,Oregon,2005,Death Penalty,2.2,1
+West,Utah,2005,Death Penalty,2.25,1
+West,Washington,2005,Death Penalty,3.26,1
+West,Wyoming,2005,Death Penalty,2.75,1
+West,Arizona,2006,Death Penalty,8.64,1
+West,California,2006,Death Penalty,6.82,1
+West,Colorado,2006,Death Penalty,3.6,1
+West,Idaho,2006,Death Penalty,2.39,1
+West,Montana,2006,Death Penalty,3.49,1
+West,Nevada,2006,Death Penalty,9.06,1
+West,New Mexico,2006,Death Penalty,6.86,1
+West,Oregon,2006,Death Penalty,2.38,1
+West,Utah,2006,Death Penalty,2,1
+West,Washington,2006,Death Penalty,3.08,1
+West,Wyoming,2006,Death Penalty,2.52,1
+West,Arizona,2007,Death Penalty,8.65,1
+West,California,2007,Death Penalty,6.19,1
+West,Colorado,2007,Death Penalty,3.19,1
+West,Idaho,2007,Death Penalty,3.27,1
+West,Montana,2007,Death Penalty,2.82,1
+West,Nevada,2007,Death Penalty,7.52,1
+West,New Mexico,2007,Death Penalty,9.29,1
+West,Oregon,2007,Death Penalty,2.03,1
+West,Utah,2007,Death Penalty,2.23,1
+West,Washington,2007,Death Penalty,2.69,1
+West,Wyoming,2007,Death Penalty,4.02,1
+West,Arizona,2008,Death Penalty,7.11,1
+West,California,2008,Death Penalty,5.83,1
+West,Colorado,2008,Death Penalty,3.34,1
+West,Idaho,2008,Death Penalty,1.51,1
+West,Montana,2008,Death Penalty,4.13,1
+West,Nevada,2008,Death Penalty,6.35,1
+West,New Mexico,2008,Death Penalty,8.11,1
+West,Oregon,2008,Death Penalty,2.3,1
+West,Utah,2008,Death Penalty,1.5,1
+West,Washington,2008,Death Penalty,2.95,1
+West,Wyoming,2008,Death Penalty,2.25,1
+West,Arizona,2009,Death Penalty,5.76,1
+West,California,2009,Death Penalty,5.34,1
+West,Colorado,2009,Death Penalty,3.16,1
+West,Idaho,2009,Death Penalty,1.55,1
+West,Montana,2009,Death Penalty,3.28,1
+West,Nevada,2009,Death Penalty,5.9,1
+West,Oregon,2009,Death Penalty,2.3,1
+West,Utah,2009,Death Penalty,1.4,1
+West,Washington,2009,Death Penalty,2.85,1
+West,Wyoming,2009,Death Penalty,2.02,1
+West,Arizona,2010,Death Penalty,6.36,1
+West,California,2010,Death Penalty,4.84,1
+West,Colorado,2010,Death Penalty,2.56,1
+West,Idaho,2010,Death Penalty,1.4,1
+West,Montana,2010,Death Penalty,2.52,1
+West,Nevada,2010,Death Penalty,5.84,1
+West,Oregon,2010,Death Penalty,2.5,1
+West,Utah,2010,Death Penalty,1.91,1
+West,Washington,2010,Death Penalty,2.28,1
+West,Wyoming,2010,Death Penalty,1.42,1
+West,Arizona,2011,Death Penalty,6.14,1
+West,California,2011,Death Penalty,4.76,1
+West,Colorado,2011,Death Penalty,3.03,1
+West,Idaho,2011,Death Penalty,2.21,1
+West,Montana,2011,Death Penalty,2.91,1
+West,Nevada,2011,Death Penalty,5.11,1
+West,Oregon,2011,Death Penalty,2.17,1
+West,Utah,2011,Death Penalty,1.78,1
+West,Washington,2011,Death Penalty,2.39,1
+West,Wyoming,2011,Death Penalty,3.17,1
+West,Arizona,2012,Death Penalty,5.46,1
+West,California,2012,Death Penalty,4.96,1
+West,Colorado,2012,Death Penalty,2.93,1
+West,Idaho,2012,Death Penalty,1.88,1
+West,Montana,2012,Death Penalty,2.88,1
+West,Nevada,2012,Death Penalty,4.5,1
+West,Oregon,2012,Death Penalty,2.33,1
+West,Utah,2012,Death Penalty,1.82,1
+West,Washington,2012,Death Penalty,3.15,1
+West,Wyoming,2012,Death Penalty,2.43,1
+West,Arizona,2013,Death Penalty,5.35,1
+West,California,2013,Death Penalty,4.54,1
+West,Colorado,2013,Death Penalty,3.3,1
+West,Idaho,2013,Death Penalty,1.8,1
+West,Montana,2013,Death Penalty,2.27,1
+West,Nevada,2013,Death Penalty,5.84,1
+West,Oregon,2013,Death Penalty,2.09,1
+West,Utah,2013,Death Penalty,1.76,1
+West,Washington,2013,Death Penalty,2.39,1
+West,Wyoming,2013,Death Penalty,2.91,1
+West,Arizona,2014,Death Penalty,4.74,1
+West,California,2014,Death Penalty,4.38,1
+West,Colorado,2014,Death Penalty,2.82,1
+West,Idaho,2014,Death Penalty,1.96,1
+West,Montana,2014,Death Penalty,3.61,1
+West,Nevada,2014,Death Penalty,5.99,1
+West,Oregon,2014,Death Penalty,2.04,1
+West,Utah,2014,Death Penalty,2.28,1
+West,Washington,2014,Death Penalty,2.46,1
+West,Wyoming,2014,Death Penalty,2.74,1
+West,Arizona,2015,Death Penalty,4.49,1
+West,California,2015,Death Penalty,4.77,1
+West,Colorado,2015,Death Penalty,3.17,1
+West,Idaho,2015,Death Penalty,1.94,1
+West,Montana,2015,Death Penalty,3.68,1
+West,Nevada,2015,Death Penalty,6.17,1
+West,Oregon,2015,Death Penalty,2.73,1
+West,Utah,2015,Death Penalty,1.91,1
+West,Washington,2015,Death Penalty,3.04,1
+West,Wyoming,2015,Death Penalty,2.73,1
+West,Arizona,2016,Death Penalty,5.63,1
+West,California,2016,Death Penalty,4.91,1
+West,Colorado,2016,Death Penalty,3.42,1
+West,Idaho,2016,Death Penalty,2.92,1
+West,Montana,2016,Death Penalty,3.56,1
+West,Nevada,2016,Death Penalty,7.76,1
+West,Oregon,2016,Death Penalty,2.84,1
+West,Utah,2016,Death Penalty,2.43,1
+West,Washington,2016,Death Penalty,2.68,1
+West,Wyoming,2016,Death Penalty,3.42,1
+West,Arizona,2017,Death Penalty,5.986770089,1
+West,California,2017,Death Penalty,4.644746795,1
+West,Colorado,2017,Death Penalty,3.953060434,1
+West,Idaho,2017,Death Penalty,2.443417433,1
+West,Montana,2017,Death Penalty,3.893304466,1
+West,Nevada,2017,Death Penalty,8.94898239,1
+West,Oregon,2017,Death Penalty,2.532199937,1
+West,Utah,2017,Death Penalty,2.384698229,1
+West,Washington,2017,Death Penalty,3.043593962,1
+West,Wyoming,2017,Death Penalty,2.418237657,1
+West,Arizona,2018,Death Penalty,5.350638668,1
+West,California,2018,Death Penalty,4.406817080,1
+West,Colorado,2018,Death Penalty,3.777704410,1
+West,Idaho,2018,Death Penalty,1.942262256,1
+West,Montana,2018,Death Penalty,3.488377574,1
+West,Nevada,2018,Death Penalty,6.672522190,1
+West,Oregon,2018,Death Penalty,2.056488388,1
+West,Utah,2018,Death Penalty,1.997748569,1
+West,Wyoming,2018,Death Penalty,2.423818518,1
+West,Arizona,2019,Death Penalty,5.014620022,1
+West,California,2019,Death Penalty,4.277157476,1
+West,Colorado,2019,Death Penalty,3.785552941,1
+West,Idaho,2019,Death Penalty,1.958518577,1
+West,Montana,2019,Death Penalty,2.526249605,1
+West,Nevada,2019,Death Penalty,4.642621997,1
+West,Oregon,2019,Death Penalty,2.750290025,1
+West,Utah,2019,Death Penalty,2.245818567,1
+West,Wyoming,2019,Death Penalty,2.246185372,1
+West,Arizona,2020,Death Penalty,6.9,1
+West,Idaho,2020,Death Penalty,2.2,1
+West,Montana,2020,Death Penalty,5,1
+West,Nevada,2020,Death Penalty,5.7,1
+West,Utah,2020,Death Penalty,3.1,1
+West,Wyoming,2020,Death Penalty,3.1,1
+Northeast,Pennsylvania,2020,Governor-imposed moratorium,7.9,1
+West,California,2020,Governor-imposed moratorium,5.6,1
+West,Oregon,2020,Governor-imposed moratorium,2.9,1
+Midwest,Wisconsin,2004,No Death Penalty,2.8,1
+Midwest,Iowa,2005,No Death Penalty,1.35,1
+Midwest,Michigan,2005,No Death Penalty,6.23,1
+Midwest,Minnesota,2005,No Death Penalty,2.24,1
+Midwest,North Dakota,2005,No Death Penalty,1.89,1
+Midwest,Wisconsin,2005,No Death Penalty,3.73,1
+Midwest,Iowa,2006,No Death Penalty,1.84,1
+Midwest,Michigan,2006,No Death Penalty,7.14,1
+Midwest,Minnesota,2006,No Death Penalty,2.44,1
+Midwest,North Dakota,2006,No Death Penalty,2.2,1
+Midwest,Wisconsin,2006,No Death Penalty,2.97,1
+Midwest,Iowa,2007,No Death Penalty,1.31,1
+Midwest,Michigan,2007,No Death Penalty,6.56,1
+Midwest,Minnesota,2007,No Death Penalty,2.23,1
+Midwest,North Dakota,2007,No Death Penalty,2.66,1
+Midwest,Wisconsin,2007,No Death Penalty,3.3,1
+Midwest,Iowa,2008,No Death Penalty,2.56,1
+Midwest,Michigan,2008,No Death Penalty,5.54,1
+Midwest,Minnesota,2008,No Death Penalty,2.11,1
+Midwest,North Dakota,2008,No Death Penalty,1.71,1
+Midwest,Wisconsin,2008,No Death Penalty,2.59,1
+Midwest,Iowa,2009,No Death Penalty,1.26,1
+Midwest,Michigan,2009,No Death Penalty,6.25,1
+Midwest,Minnesota,2009,No Death Penalty,1.41,1
+Midwest,North Dakota,2009,No Death Penalty,1.86,1
+Midwest,Wisconsin,2009,No Death Penalty,2.58,1
+Midwest,Iowa,2010,No Death Penalty,1.25,1
+Midwest,Michigan,2010,No Death Penalty,5.87,1
+Midwest,Minnesota,2010,No Death Penalty,1.81,1
+Midwest,North Dakota,2010,No Death Penalty,1.48,1
+Midwest,Wisconsin,2010,No Death Penalty,2.72,1
+Midwest,Illinois,2011,No Death Penalty,6.07,1
+Midwest,Iowa,2011,No Death Penalty,1.44,1
+Midwest,Michigan,2011,No Death Penalty,6.25,1
+Midwest,Minnesota,2011,No Death Penalty,1.4,1
+Midwest,North Dakota,2011,No Death Penalty,3.5,1
+Midwest,Wisconsin,2011,No Death Penalty,2.42,1
+Midwest,Illinois,2012,No Death Penalty,5.98,1
+Midwest,Iowa,2012,No Death Penalty,1.59,1
+Midwest,Michigan,2012,No Death Penalty,7.09,1
+Midwest,Minnesota,2012,No Death Penalty,1.84,1
+Midwest,North Dakota,2012,No Death Penalty,3.56,1
+Midwest,Wisconsin,2012,No Death Penalty,2.95,1
+Midwest,Illinois,2013,No Death Penalty,5.6,1
+Midwest,Iowa,2013,No Death Penalty,1.33,1
+Midwest,Michigan,2013,No Death Penalty,6.31,1
+Midwest,Minnesota,2013,No Death Penalty,2.1,1
+Midwest,North Dakota,2013,No Death Penalty,2.21,1
+Midwest,Wisconsin,2013,No Death Penalty,2.84,1
+Midwest,Illinois,2014,No Death Penalty,5.32,1
+Midwest,Iowa,2014,No Death Penalty,1.93,1
+Midwest,Michigan,2014,No Death Penalty,5.4,1
+Midwest,Minnesota,2014,No Death Penalty,1.61,1
+Midwest,North Dakota,2014,No Death Penalty,2.98,1
+Midwest,Wisconsin,2014,No Death Penalty,2.87,1
+Midwest,Illinois,2015,No Death Penalty,5.87,1
+Midwest,Iowa,2015,No Death Penalty,2.34,1
+Midwest,Michigan,2015,No Death Penalty,5.9,1
+Midwest,Minnesota,2015,No Death Penalty,2.43,1
+Midwest,North Dakota,2015,No Death Penalty,2.77,1
+Midwest,Wisconsin,2015,No Death Penalty,4.16,1
+Midwest,Illinois,2016,No Death Penalty,8.27,1
+Midwest,Iowa,2016,No Death Penalty,2.33,1
+Midwest,Michigan,2016,No Death Penalty,6.16,1
+Midwest,Minnesota,2016,No Death Penalty,1.83,1
+Midwest,North Dakota,2016,No Death Penalty,2.12,1
+Midwest,Wisconsin,2016,No Death Penalty,4.02,1
+Midwest,Illinois,2017,No Death Penalty,7.687978504,1
+Midwest,Iowa,2017,No Death Penalty,3.117408276,1
+Midwest,Michigan,2017,No Death Penalty,5.703433296,1
+Midwest,Minnesota,2017,No Death Penalty,2.0473568,1
+Midwest,North Dakota,2017,No Death Penalty,1.324194625,1
+Midwest,Wisconsin,2017,No Death Penalty,3.314887939,1
+Midwest,Illinois,2018,No Death Penalty,7.089483349,1
+Midwest,Iowa,2018,No Death Penalty,2.223197606,1
+Midwest,Michigan,2018,No Death Penalty,5.558854143,1
+Midwest,Minnesota,2018,No Death Penalty,1.908584510,1
+Midwest,North Dakota,2018,No Death Penalty,2.374419586,1
+Midwest,Wisconsin,2018,No Death Penalty,3.013393587,1
+Midwest,Illinois,2019,No Death Penalty,6.565749311,1
+Midwest,Iowa,2019,No Death Penalty,1.901701072,1
+Midwest,Michigan,2019,No Death Penalty,5.567317125,1
+Midwest,Minnesota,2019,No Death Penalty,2.074603449,1
+Midwest,North Dakota,2019,No Death Penalty,3.149350053,1
+Midwest,Wisconsin,2019,No Death Penalty,3.005615864,1
+Midwest,Illinois,2020,No Death Penalty,9.1,1
+Midwest,Iowa,2020,No Death Penalty,3.5,1
+Midwest,Michigan,2020,No Death Penalty,7.6,1
+Midwest,Minnesota,2020,No Death Penalty,3.4,1
+Midwest,North Dakota,2020,No Death Penalty,4.2,1
+Midwest,Wisconsin,2020,No Death Penalty,5.3,1
+Northeast,Maine,2005,No Death Penalty,1.44,1
+Northeast,Massachusetts,2005,No Death Penalty,2.77,1
+Northeast,New York,2005,No Death Penalty,4.52,1
+Northeast,Rhode Island,2005,No Death Penalty,3.17,1
+Northeast,Vermont,2005,No Death Penalty,1.29,1
+Northeast,Maine,2006,No Death Penalty,1.74,1
+Northeast,Massachusetts,2006,No Death Penalty,2.92,1
+Northeast,New York,2006,No Death Penalty,4.78,1
+Northeast,Rhode Island,2006,No Death Penalty,2.53,1
+Northeast,Vermont,2006,No Death Penalty,2.24,1
+Northeast,Maine,2007,No Death Penalty,1.52,1
+Northeast,Massachusetts,2007,No Death Penalty,2.9,1
+Northeast,New Jersey,2007,No Death Penalty,4.39,1
+Northeast,New York,2007,No Death Penalty,4.17,1
+Northeast,Rhode Island,2007,No Death Penalty,1.8,1
+Northeast,Vermont,2007,No Death Penalty,2.09,1
+Northeast,Maine,2008,No Death Penalty,2.35,1
+Northeast,Massachusetts,2008,No Death Penalty,2.55,1
+Northeast,New Jersey,2008,No Death Penalty,4.33,1
+Northeast,New York,2008,No Death Penalty,4.29,1
+Northeast,Rhode Island,2008,No Death Penalty,2.95,1
+Northeast,Vermont,2008,No Death Penalty,2.74,1
+Northeast,Maine,2009,No Death Penalty,1.97,1
+Northeast,Massachusetts,2009,No Death Penalty,2.62,1
+Northeast,New Jersey,2009,No Death Penalty,3.66,1
+Northeast,New York,2009,No Death Penalty,4,1
+Northeast,Rhode Island,2009,No Death Penalty,3.04,1
+Northeast,Vermont,2009,No Death Penalty,1.29,1
+Northeast,Maine,2010,No Death Penalty,1.81,1
+Northeast,Massachusetts,2010,No Death Penalty,3.26,1
+Northeast,New Jersey,2010,No Death Penalty,4.22,1
+Northeast,New York,2010,No Death Penalty,4.48,1
+Northeast,Rhode Island,2010,No Death Penalty,2.76,1
+Northeast,Vermont,2010,No Death Penalty,1.12,1
+Northeast,Maine,2011,No Death Penalty,1.96,1
+Northeast,Massachusetts,2011,No Death Penalty,2.78,1
+Northeast,New Jersey,2011,No Death Penalty,4.3,1
+Northeast,New York,2011,No Death Penalty,3.94,1
+Northeast,Rhode Island,2011,No Death Penalty,1.9,1
+Northeast,Vermont,2011,No Death Penalty,1.76,1
+Northeast,Connecticut,2012,No Death Penalty,3.26,1
+Northeast,Maine,2012,No Death Penalty,1.96,1
+Northeast,Massachusetts,2012,No Death Penalty,1.82,1
+Northeast,New Jersey,2012,No Death Penalty,4.38,1
+Northeast,New York,2012,No Death Penalty,3.49,1
+Northeast,Rhode Island,2012,No Death Penalty,3.43,1
+Northeast,Vermont,2012,No Death Penalty,1.28,1
+Northeast,Connecticut,2013,No Death Penalty,2.53,1
+Northeast,Maine,2013,No Death Penalty,1.81,1
+Northeast,Massachusetts,2013,No Death Penalty,2.06,1
+Northeast,New Jersey,2013,No Death Penalty,4.53,1
+Northeast,New York,2013,No Death Penalty,3.27,1
+Northeast,Rhode Island,2013,No Death Penalty,2.94,1
+Northeast,Vermont,2013,No Death Penalty,1.6,1
+Northeast,Connecticut,2014,No Death Penalty,2.39,1
+Northeast,Maine,2014,No Death Penalty,1.58,1
+Northeast,Massachusetts,2014,No Death Penalty,1.96,1
+Northeast,New Jersey,2014,No Death Penalty,3.9,1
+Northeast,New York,2014,No Death Penalty,3.12,1
+Northeast,Rhode Island,2014,No Death Penalty,2.37,1
+Northeast,Vermont,2014,No Death Penalty,1.6,1
+Northeast,Connecticut,2015,No Death Penalty,3.24,1
+Northeast,Maine,2015,No Death Penalty,1.73,1
+Northeast,Massachusetts,2015,No Death Penalty,1.93,1
+Northeast,New Jersey,2015,No Death Penalty,4.06,1
+Northeast,New York,2015,No Death Penalty,3.1,1
+Northeast,Rhode Island,2015,No Death Penalty,2.94,1
+Northeast,Vermont,2015,No Death Penalty,1.6,1
+Northeast,Connecticut,2016,No Death Penalty,2.2,1
+Northeast,Maine,2016,No Death Penalty,1.5,1
+Northeast,Massachusetts,2016,No Death Penalty,1.98,1
+Northeast,New Jersey,2016,No Death Penalty,4.21,1
+Northeast,New York,2016,No Death Penalty,3.17,1
+Northeast,Rhode Island,2016,No Death Penalty,2.74,1
+Northeast,Vermont,2016,No Death Penalty,2.25,1
+Northeast,Connecticut,2017,No Death Penalty,2.937983368,1
+Northeast,Maine,2017,No Death Penalty,1.722765143,1
+Northeast,Massachusetts,2017,No Death Penalty,2.506102797,1
+Northeast,New Jersey,2017,No Death Penalty,3.645141842,1
+Northeast,New York,2017,No Death Penalty,2.807451835,1
+Northeast,Rhode Island,2017,No Death Penalty,1.98772156,1
+Northeast,Vermont,2017,No Death Penalty,2.722068772,1
+Northeast,Connecticut,2018,No Death Penalty,2.407938357,1
+Northeast,Maine,2018,No Death Penalty,1.717626658,1
+Northeast,Massachusetts,2018,No Death Penalty,2.005046033,1
+Northeast,New Jersey,2018,No Death Penalty,3.207283347,1
+Northeast,New York,2018,No Death Penalty,2.877572451,1
+Northeast,Rhode Island,2018,No Death Penalty,1.511877213,1
+Northeast,Vermont,2018,No Death Penalty,1.761809731,1
+Northeast,Connecticut,2019,No Death Penalty,2.917016218,1
+Northeast,Maine,2019,No Death Penalty,1.487860546,1
+Northeast,Massachusetts,2019,No Death Penalty,2.205294651,1
+Northeast,New Jersey,2019,No Death Penalty,2.949722985,1
+Northeast,New York,2019,No Death Penalty,2.868369447,1
+Northeast,Rhode Island,2019,No Death Penalty,2.359913193,1
+Northeast,Vermont,2019,No Death Penalty,1.762851589,1
+Northeast,Connecticut,2020,No Death Penalty,3.9,1
+Northeast,Maine,2020,No Death Penalty,1.6,1
+Northeast,Massachusetts,2020,No Death Penalty,2.3,1
+Northeast,New Hampshire,2020,No Death Penalty,0.9,1
+Northeast,New Jersey,2020,No Death Penalty,3.7,1
+Northeast,New York,2020,No Death Penalty,4.2,1
+Northeast,Rhode Island,2020,No Death Penalty,3,1
+Northeast,Vermont,2020,No Death Penalty,2.2,1
+South,West Virginia,2004,No Death Penalty,3.75,1
+South,West Virginia,2005,No Death Penalty,4.52,1
+South,West Virginia,2006,No Death Penalty,4.4,1
+South,West Virginia,2007,No Death Penalty,3.59,1
+South,West Virginia,2008,No Death Penalty,3.69,1
+South,West Virginia,2009,No Death Penalty,4.62,1
+South,West Virginia,2010,No Death Penalty,3.13,1
+South,West Virginia,2011,No Death Penalty,4.69,1
+South,West Virginia,2012,No Death Penalty,3.77,1
+South,Maryland,2013,No Death Penalty,6.47,1
+South,West Virginia,2013,No Death Penalty,3.34,1
+South,Maryland,2014,No Death Penalty,6.11,1
+South,West Virginia,2014,No Death Penalty,4,1
+South,Maryland,2015,No Death Penalty,8.97,1
+South,West Virginia,2015,No Death Penalty,4.62,1
+South,Delaware,2016,No Death Penalty,6.09,1
+South,Maryland,2016,No Death Penalty,8.9,1
+South,West Virginia,2016,No Death Penalty,4.65,1
+South,Delaware,2017,No Death Penalty,5.328719289,1
+South,Maryland,2017,No Death Penalty,9.261578342,1
+South,West Virginia,2017,No Death Penalty,5.393363301,1
+South,Delaware,2018,No Death Penalty,4.764474422,1
+South,Maryland,2018,No Death Penalty,8.134793023,1
+South,West Virginia,2018,No Death Penalty,4.212180851,1
+South,Delaware,2019,No Death Penalty,4.929325791,1
+South,Maryland,2019,No Death Penalty,8.965079197,1
+South,West Virginia,2019,No Death Penalty,4.352321545,1
+South,Delaware,2020,No Death Penalty,7.4,1
+South,Maryland,2020,No Death Penalty,9.1,1
+South,West Virginia,2020,No Death Penalty,6.6,1
+West,Alaska,2005,No Death Penalty,4.82,1
+West,Hawaii,2005,No Death Penalty,1.88,1
+West,Alaska,2006,No Death Penalty,5.37,1
+West,Hawaii,2006,No Death Penalty,1.63,1
+West,Alaska,2007,No Death Penalty,6.29,1
+West,Hawaii,2007,No Death Penalty,1.87,1
+West,Alaska,2008,No Death Penalty,3.93,1
+West,Hawaii,2008,No Death Penalty,2.02,1
+West,Alaska,2009,No Death Penalty,3.15,1
+West,Hawaii,2009,No Death Penalty,1.78,1
+West,New Mexico,2009,No Death Penalty,9.85,1
+West,Alaska,2010,No Death Penalty,4.34,1
+West,Hawaii,2010,No Death Penalty,1.83,1
+West,New Mexico,2010,No Death Penalty,6.78,1
+West,Alaska,2011,No Death Penalty,4.14,1
+West,Hawaii,2011,No Death Penalty,1.45,1
+West,New Mexico,2011,No Death Penalty,7.6,1
+West,Alaska,2012,No Death Penalty,4.11,1
+West,Hawaii,2012,No Death Penalty,1.51,1
+West,New Mexico,2012,No Death Penalty,5.57,1
+West,Alaska,2013,No Death Penalty,4.61,1
+West,Hawaii,2013,No Death Penalty,2.27,1
+West,New Mexico,2013,No Death Penalty,5.89,1
+West,Alaska,2014,No Death Penalty,5.57,1
+West,Hawaii,2014,No Death Penalty,1.83,1
+West,New Mexico,2014,No Death Penalty,4.84,1
+West,Alaska,2015,No Death Penalty,8,1
+West,Hawaii,2015,No Death Penalty,2.03,1
+West,New Mexico,2015,No Death Penalty,5.62,1
+West,Alaska,2016,No Death Penalty,7.01,1
+West,Hawaii,2016,No Death Penalty,2.45,1
+West,New Mexico,2016,No Death Penalty,6.67,1
+West,Alaska,2017,No Death Penalty,8.380802016,1
+West,Hawaii,2017,No Death Penalty,2.738373673,1
+West,New Mexico,2017,No Death Penalty,6.878778253,1
+West,Alaska,2018,No Death Penalty,6.373417155,1
+West,Hawaii,2018,No Death Penalty,2.815725546,1
+West,New Mexico,2018,No Death Penalty,7.310985927,1
+West,Washington,2018,No Death Penalty,3.136684065,1
+West,Alaska,2019,No Death Penalty,9.432092352,1
+West,Hawaii,2019,No Death Penalty,3.390136962,1
+West,New Mexico,2019,No Death Penalty,8.632082063,1
+West,Washington,2019,No Death Penalty,2.600167855,1
+West,Alaska,2020,No Death Penalty,6.7,1
+West,Colorado,2020,No Death Penalty,5.1,1
+West,Hawaii,2020,No Death Penalty,2.9,1
+West,New Mexico,2020,No Death Penalty,7.8,1
+West,Washington,2020,No Death Penalty,3.9,1

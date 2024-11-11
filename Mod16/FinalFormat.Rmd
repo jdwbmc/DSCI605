@@ -1,0 +1,53 @@
+---
+title: "Final Project"
+author: "JDW"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title
+# JohnWilliams_Module16_FinalProject
+
+## Data
+* There are two main data files to be used for this proposal.  They are ‘unemployment_county.csv’ and ‘crime_and_incarceration_by_state.csv’.
+* The main columns used by ‘crime_and_incarceration_by_state.csv’ are “jurisdiction” (chr), “year”(dbl), “state_population”(dbl), and “violent_crime_total”.
+* The reason these were selected is that you will need “jurisdiction” and “year” to join with the unemployment file.  The other columns are used to calculate a crime ratio.
+* The file ‘unemployment_county.csv’ and its columns “State”(chr), “Year”(int) and “Unemployment Rate”(dbl) were selected.
+* With a groupby “State” and “Year”, the “Unemployment Rate” for a year is used to calculate a mean unemployment rate for each year per state.
+* Plotly is used to create the interactive graphs.
+
+## Project Objectives
+**Research question:**  Does unemployment lead to higher crime rates?
+
+* Five graphs will be used to answer this question.
+  * The first graph is of the Unemployment rate in each state of the contiguous 48 states in 2014.
+  * The second graph is of the Crime rate in each state of the contiguous 48 states in 2014.
+  * The third graph is a scatter diagram comparing Unemployment rate and Crime rate for 2014.
+  * The fourth graph is line graph comparing the changes in Unemployment rates for four states over the years 2007-2014.
+  * The final graph is line graph comparing the changes in Crime rates for four states over the years 2007-2014.
+* Are there any relationships between variables?
+  * That is what the graphs will show
+* Is there any geographical information?
+  * That will be found in Plot4, which is interactive and has correlation per state.
+* Is there time series formation?
+  * Yes, this is needed for calculating means
+* These graphs should be able to answer the research questions.
+
+## Data Processing and data visualization
+
+## Discussion and Conclusion
+
+
+## References
+1. Raphael and Winter-Ebmer (2001): https://www.journals.uchicago.edu/doi/10.1086/320275
+2. Gould, Weinberg, and Mustard (2002): https://www.atlantis-press.com/article/125968545.pdf
+3. Gao (2019): https://swer.wtamu.edu/sites/default/files/Data/Gao.pdf
+4. Nilsson and Agell (2003): https://inequality.stanford.edu/sites/default/files/media/_media/pdf/Reference%20Media/Gould,%20Weinberg,%20and%20Mustard_2002_Crime%20and%20the%20Legal%20System.pdf
+5. Fougère et al. (2009): https://www.diva-portal.org/smash/get/diva2:1252037/FULLTEXT01.pdf
+6. Nordin and Almén (2011): https://www.ojp.gov/ncjrs/virtual-library/abstracts/unemployment-and-crime-1
+7. Melick (2003): https://digitalcommons.iwu.edu/cgi/viewcontent.cgi?article=1069&context=parkplace
+8. Jawadi (2021): https://www.sciencedirect.com/science/article/abs/pii/S0167268119301027

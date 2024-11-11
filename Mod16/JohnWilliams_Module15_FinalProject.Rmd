@@ -1,0 +1,187 @@
+---
+title: "JohnWilliams_Module15_Main"
+author: "John Williams"
+date: "11/4/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Final Project - John Williams
+## Load libraries
+```{r loadlibs, echo=TRUE, results='asis', message=FALSE, warning=FALSE}
+library(tidyverse)
+library(raster)          #raster()
+library(sf)              #st_read()
+library(ggspatial)       #annotation_scale,annotation_north_arrow
+library(ggnewscale)      #new_scale_color() 
+library(ggsn)            #scalebar()
+library(shiny)           #Shiny app
+library(plotly)          #plot_ly()
+library(gridExtra)       #grid.arrange()
+```
+
+## Set working directory
+```{r readfiles, echo=TRUE}
+setwd("~/FinalProject")
+```
+
+## Read the data
+```{r readdata}
+##################Read data file into R
+load(file = "CleaneData.Rdata")
+```
+
+## Join Tables
+```{r jointables, echo=TRUE}
+########Join the rational tables and check the missing values
+CS_Erate<-right_join(Contiguous_state, Unemployrate, 
+                     by = c("STUSPS"))
+
+CS_Erate_Crate <- right_join(CS_Erate, Crimerate, 
+                             by = c("STUSPS","Year"))
+CS_Erate_Crate1 <- CS_Erate_Crate %>% 
+  dplyr::select(REGION,STUSPS,NAME,Year,Meanrate,Crimerate) %>% 
+  dplyr::rename("Unemplyrate"="Meanrate")
+
+```
+
+# Create Plots
+## Prep for plots
+```{r prepplots, echo=TRUE}
+## Perform the filter for the Year, preserving geometry only from CS_Erate_Crate1
+CS_Erate_Crate2 <- CS_Erate_Crate1 %>%
+  filter(Year == 2014)
+```
+
+## Plot 1
+```{r plot1, echo=TRUE, results='asis', message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+# Plot 1 The unemployment spatial map in 2014 over contiguous USA
+CS_Erate_Crate2 %>%
+  ggplot() +
+  geom_sf(aes(fill = Unemplyrate), color = "white", size = 0.3) +
+  scale_fill_gradientn(colors = c("darkblue", "lightblue"), name = "Year2014-Unemployment Rate",
+                       limits = c(3, 10)) +
+  labs(title = "Unemployment Rate Map Over Contiguous US") +
+  #scale bar
+  scalebar(data=CS_Erate_Crate2, location = "bottomleft", anchor = c(x=-125, y=25), dist = 1000,
+           dist_unit="km", transform=TRUE, model="WGS84", st.dist=0.04)+
+  ## Add North Arrow
+  annotation_north_arrow(location="br", which_north="true",
+                         # pad_x = unit(2.5, "in"), pad_y = unit(0.2, "in"),
+                         style = north_arrow_fancy_orienteering) +
+  theme(legend.position="right",       #change 'top' to specific position by c(2.5,0.8)
+        plot.title = element_text(hjust = 0.5,
+                                  color = "Gray40",
+                                  size = 16,
+                                  face = "bold"),
+        plot.subtitle = element_text(color="blue"),
+        plot.caption = element_text(color="Gray60")) +
+  xlab("Longitude") + ylab("Latitude")
+```
+
+## Plot 2
+```{r plot2, echo=TRUE, results='asis', message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+#Plot 2 is the crimerate spatial map in 2014 over contiguous USA
+CS_Erate_Crate2 %>%
+  ggplot() +
+  geom_sf(aes(fill = Crimerate), color = "white", size = 0.3) +
+  scale_fill_gradientn(colors = c("darkblue", "lightblue"), name = "Year2014-Crime Rate",
+                       limits = c(.1, .6)) +
+  labs(title = "Crime Rate Map Over Contiguous US") +
+  #scale bar
+  scalebar(data=CS_Erate_Crate2, location = "bottomleft", anchor = c(x=-125, y=25), dist = 1000,
+           dist_unit="km", transform=TRUE, model="WGS84", st.dist=0.04)+
+  ## Add North Arrow
+  annotation_north_arrow(location="br", which_north="true",
+                         # pad_x = unit(2.5, "in"), pad_y = unit(0.2, "in"),
+                         style = north_arrow_fancy_orienteering) +
+  theme(legend.position="right",       #change 'top' to specific position by c(2.5,0.8)
+        plot.title = element_text(hjust = 0.5,
+                                  color = "Gray40",
+                                  size = 16,
+                                  face = "bold"),
+        plot.subtitle = element_text(color="blue"),
+        plot.caption = element_text(color="Gray60")) +
+  xlab("Longitude") + ylab("Latitude")
+```
+
+## Plot 3
+```{r plot3, echo=TRUE, results='asis', message=FALSE, warning=FALSE}
+## Plot 3 The time series visualization of Unemployment for some states
+states_to_plot <- c("California", "Idaho", "Illinois", "Indiana")
+CS_Erate_Crate1$geometry <- NULL      #Drop geometry column for plotly
+
+# Filter data for the specified states and years
+ts_data <- CS_Erate_Crate1 %>%
+  filter(Year >= 2007, Year <= 2014, NAME %in% states_to_plot)
+
+# Create the plotly time series plot
+plot_ly(data = ts_data,
+  x = ~Year,
+  y = ~Unemplyrate,
+  color = ~NAME,
+  type = 'scatter',         # Set type to scatter for lines and markers
+  mode = 'lines+markers',   # Use lines and markers
+  text = ~paste("Year:", Year, "<br>Unemployment Rate:", Unemplyrate),
+  hoverinfo = 'text'        # Show tooltip text
+) %>%
+  layout(
+    title = "Unemployment Rate Changes Along with Years",  # Title
+    xaxis = list(title = "Year", tickvals = 2007:2014),    # x-axis label and ticks
+    yaxis = list(title = "Unemployment Rate", range = c(3, 14)),  # y-axis label and range
+    legend = list(title = list(text = ""))  # Remove legend title
+  )
+```
+
+## Plot 4
+```{r plot4}
+#Plot 4 The time series visualization of Crimerate for some states
+# Define states to plot
+states_to_plot <- c("California", "Idaho", "Florida", "Indiana")
+
+# Filter data for the specified states and years
+ts1_data <- CS_Erate_Crate1 %>%
+  filter(Year >= 2007, Year <= 2014, NAME %in% states_to_plot)
+
+# Create the plotly time series plot
+plot_ly(data = ts1_data,
+  x = ~Year,
+  y = ~Crimerate,
+  color = ~NAME,
+  type = 'scatter',         # Set type to scatter for lines and markers
+  mode = 'lines+markers',   # Use lines and markers
+  text = ~paste("Year:", Year, "<br>Crime Rate:", Crimerate),
+  hoverinfo = 'text'        # Show tooltip text
+) %>%
+  layout(
+    title = "Crime Rate Changes Along with Years",  # Title
+    xaxis = list(title = "Year", tickvals = 2007:2014),    # x-axis label and ticks
+    yaxis = list(title = "Crime Rate", range = c(.1, .8)),  # y-axis label and range
+    legend = list(title = list(text = ""))  # Remove legend title
+  )
+```
+
+
+## Plot 5
+```{r plot5, echo=TRUE, results='asis', message=FALSE, warning=FALSE}
+## Plot 5 Scatter Plot with colors by Region
+# Create a plot with colors by Region
+CS_Erate_Crate2$geometry <- NULL  #Drop geometry column for plotly
+
+plot_ly(
+  data = CS_Erate_Crate2,
+  x = ~Crimerate,
+  y = ~Unemplyrate,
+  type = 'scatter',
+  mode = 'markers',
+  color = ~as.factor(REGION)
+) %>%
+  layout(
+    title = "Unemployment Rate and Crime Rate in 2014",
+    xaxis = list(title = "Crime Rate per 100 people"),
+    yaxis = list(title = "UnemploymentRates per 100 people")
+  )
+```
